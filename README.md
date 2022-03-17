@@ -5,13 +5,13 @@ To create a dynamic front-end web application that incorporates an immersive UI 
 
 ## Contributors
 
-* [Inna Arabejo]()
+* [Inna Arabejo](https://github.com/inna-arabejo)
 
-* [Victor Kennedy]()
+* [Victor Kennedy](https://github.com/Victorini1)
 
-* [Chris Weddington]()
+* [Chris Weddington](https://github.com/cwed777)
 
-* [Devin Wulf]()
+* [Devin Wulf](https://github.com/wulfsounds)
 
 ## APIs
 
@@ -23,7 +23,7 @@ To create a dynamic front-end web application that incorporates an immersive UI 
 
 ## Screenshots
 
-
+* 📸
 
 ## Quest Items
 
