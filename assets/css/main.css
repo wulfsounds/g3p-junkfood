@@ -83,6 +83,22 @@ article {
   left: 520px;
 }
 
+.inna-bio {
+  display: flex;
+  flex: 1 0 auto;
+  position: absolute;
+  top: 22em;
+  left: 700px;
+  width: 5000px;
+
+  font-family: futura-pt,sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 35px;
+  line-height: 35px;
+  letter-spacing: 0.5px;
+}
+
 .inna-git {
   border-radius: 15px;
 }
@@ -116,21 +132,20 @@ article {
   text-align: center;
   margin: 0;
 
-  right: 280px;
-  top: 6.4em;
+  right: 775px;
+  top: 10em;
 }
 
 .icons {
   width: 75px;
 }
 
-
-.bio {
+.victor-bio {
   display: flex;
   flex: 1 0 auto;
   position: absolute;
-  top: 22em;
-  left: 700px;
+  top: 40.45em;
+  left: 980px;
   width: 5000px;
 
   font-family: futura-pt,sans-serif;
@@ -139,6 +154,7 @@ article {
   font-size: 35px;
   line-height: 35px;
   letter-spacing: 0.5px;
+  text-align: right;
 }
 
 p {
