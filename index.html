@@ -6,59 +6,67 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
-        <!-- Third-Party Fonts.css -->
+        <link rel="stylesheet" href="https://use.typekit.net/erz1sbw.css">
         <link rel="stylesheet" type="text/css" href="./assets/css/main.css" />
         <title>JunkFood.</title>
     </head>
     <body>
         <header>
-            <nav id="junkfood_nav" class="navbar fixed-top navbar-dark bg-primary d-inline-flex">
-                <a class="navbar-brand" href="#!">JunkFood.</a>
-                <div class="input-group">
-                    <input type="text" id="searchbar" class="form w-50 d-inline-flex" placeholder="Find Something New..." aria-label="" aria-describedby="basic-addon1">
-                    <div class="input-group-append">
-                      <button class="btn btn-success" type="button">Munch On</button>
+            <nav id="junknav" class="navbar navbar-expand-md navbar-dark fixed-top bg-primary justify-content-center">
+                <a class="navbar-brand" href="#">JunkFood.</a>
+                <div>
+                  <form class="form-inline justify-content-center" style="text-align: center;">
+                    <div class="input-group">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Munch On..." aria-label="" aria-describedby="basic-addon1">
+                            <div class="input-group-append">
+                              <button class="btn btn-success" type="button">search.</button>
+                            </div>
+                          </div>
                     </div>
+                </form>
                 </div>
             </nav>
-              <div class="jumbotron">
-                <h1 class="display-3">Munchies</h1>
-                <p class="lead">discover new cravings</p>
+              <div id="junkwrapper" class="jumbotron">
+                <h1  class="display-3 text-center">Munchies</h1>
+                <p class="lead text-center">discover new cravings</p>
               </div>
         </header>
         <main>
-            <div id="memes" class="container-lg">
-                <div class="row">
-                    <div id="munchies_list" class="col-xl-4 col-md-6 col-xxl-3"><p>Box 1</p></div>
-                    <div id="munchies_list" class="col-xl-4 col-md-6 col-xxl-3"><p>Box 2</p></div>
-                    <div id="munchies_list" class="col-xl-4 col-md-6 col-xxl-3"><p>Box 3</p></div>
-                    <div id="munchies_list" class="col-xl-4 col-md-6 col-xxl-3"><p>Box 4</p></div>
-                    <div id="munchies_list" class="col-xl-4 col-md-6 col-xxl-3"><p>Box 5</p></div>
-                    <div id="munchies_list" class="col-xl-4 col-md-6 col-xxl-3"><p>Box 6</p></div>
-                    <div id="munchies_list" class="col-xl-4 col-md-6 col-xxl-3"><p>Box 7</p></div>
-                    <div id="munchies_list" class="col-xl-4 col-md-6 col-xxl-3"><p>Box 8</p></div>
-                    <div id="munchies_list" class="col-xl-4 col-md-6 col-xxl-3"><p>Box 9</p></div>
-                    <div id="munchies_list" class="col-xl-4 col-md-6 col-xxl-3"><p>Box 10</p></div>
-                    <div id="munchies_list" class="col-xl-4 col-md-6 col-xxl-3"><p>Box 11</p></div>
-                    <div id="munchies_list" class="col-xl-4 col-md-6 col-xxl-3"><p>Box 12</p></div>
-                </div>
+        <div id="memes" class="container-lg">
+            <h3>memes.</h3>
+            <div class="row">
+                <div class="col-xl-3 col-md-6 col-xxl-3"><p>Box 1</p></div>
+                <div class="col-xl-3 col-md-6 col-xxl-3"><p>Box 2</p></div>
+                <div class="col-xl-3 col-md-6 col-xxl-3"><p>Box 3</p></div>
+                <div class="col-xl-3 col-md-6 col-xxl-3"><p>Box 4</p></div>
+                <div class="col-xl-3 col-md-6 col-xxl-3"><p>Box 5</p></div>
+                <div class="col-xl-3 col-md-6 col-xxl-3"><p>Box 6</p></div>
+                <div class="col-xl-3 col-md-6 col-xxl-3"><p>Box 7</p></div>
+                <div class="col-xl-3 col-md-6 col-xxl-3"><p>Box 8</p></div>
+                <div class="col-xl-3 col-md-6 col-xxl-3"><p>Box 9</p></div>
+                <div class="col-xl-3 col-md-6 col-xxl-3"><p>Box 10</p></div>
+                <div class="col-xl-3 col-md-6 col-xxl-3"><p>Box 11</p></div>
+                <div class="col-xl-3 col-md-6 col-xxl-3"><p>Box 12</p></div>
             </div>
-            <div id="gif" class="container-lg">
-                <div class="row">
-                    <div id="munchies_list" class="col-xl-4 col-md-6 col-xxl-3"><p>Box 1</p></div>
-                    <div id="munchies_list" class="col-xl-4 col-md-6 col-xxl-3"><p>Box 2</p></div>
-                    <div id="munchies_list" class="col-xl-4 col-md-6 col-xxl-3"><p>Box 3</p></div>
-                    <div id="munchies_list" class="col-xl-4 col-md-6 col-xxl-3"><p>Box 4</p></div>
-                    <div id="munchies_list" class="col-xl-4 col-md-6 col-xxl-3"><p>Box 5</p></div>
-                    <div id="munchies_list" class="col-xl-4 col-md-6 col-xxl-3"><p>Box 6</p></div>
-                    <div id="munchies_list" class="col-xl-4 col-md-6 col-xxl-3"><p>Box 7</p></div>
-                    <div id="munchies_list" class="col-xl-4 col-md-6 col-xxl-3"><p>Box 8</p></div>
-                    <div id="munchies_list" class="col-xl-4 col-md-6 col-xxl-3"><p>Box 9</p></div>
-                    <div id="munchies_list" class="col-xl-4 col-md-6 col-xxl-3"><p>Box 10</p></div>
-                    <div id="munchies_list" class="col-xl-4 col-md-6 col-xxl-3"><p>Box 11</p></div>
-                    <div id="munchies_list" class="col-xl-4 col-md-6 col-xxl-3"><p>Box 12</p></div>
-                </div>
+        </div>
+        <div id="memes" class="container-lg">
+            <h3>gifs.</h3>
+            <div class="row">
+                <div class="col-xl-3 col-md-6 col-xxl-3"><p>Box 1</p></div>
+                <div class="col-xl-3 col-md-6 col-xxl-3"><p>Box 2</p></div>
+                <div class="col-xl-3 col-md-6 col-xxl-3"><p>Box 3</p></div>
+                <div class="col-xl-3 col-md-6 col-xxl-3"><p>Box 4</p></div>
+                <div class="col-xl-3 col-md-6 col-xxl-3"><p>Box 5</p></div>
+                <div class="col-xl-3 col-md-6 col-xxl-3"><p>Box 6</p></div>
+                <div class="col-xl-3 col-md-6 col-xxl-3"><p>Box 7</p></div>
+                <div class="col-xl-3 col-md-6 col-xxl-3"><p>Box 8</p></div>
+                <div class="col-xl-3 col-md-6 col-xxl-3"><p>Box 9</p></div>
+                <div class="col-xl-3 col-md-6 col-xxl-3"><p>Box 10</p></div>
+                <div class="col-xl-3 col-md-6 col-xxl-3"><p>Box 11</p></div>
+                <div class="col-xl-3 col-md-6 col-xxl-3"><p>Box 12</p></div>
             </div>
+        </div>
         </main>
     </body>
         <!-- jQuery -->
