@@ -5,32 +5,33 @@
 }
 
 body {
-  font-family: "neue-haas-grotesk-display",sans-serif;
+  font-family: "neue-haas-grotesk-display", sans-serif;
   background-image: url('https://source.unsplash.com/1600x900/?donuts');
   background-size: cover; 
+  width: 100%;
 }
 
 /* Return to content */
-div h3 a.return {
+div h2 a.return {
   display: block;
   font-size: 30px;
   text-decoration: none;
   margin: 10px;
-  color: white;
+  color: aliceblue;
   text-shadow: 0px 0px 10px #000000;
   padding: 5px;
 }
 
-div h2 a.junkfood-logo {
+div h1 a.junkfood-logo {
+  font-family: "neue-haas-grotesk-display", sans-serif;
   font-size: 100px;
   text-decoration: none;
-  color: white;
+  color: aliceblue;
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   text-shadow: 0px 0px 20px #000000;
-  font-weight: 400;
   font-style: normal;
   letter-spacing: 0.5px;
 } 
@@ -38,23 +39,32 @@ div h2 a.junkfood-logo {
 /* Form login page */
 form {
   font-size: 30px;
+  width: 30%;
   background: rgb(0, 0, 0, 0.6);
-  padding: 30px;
+  padding: 10px;
   margin: 35%;
   margin-top: 5%;
   border-radius: 50px;
+  transition: 0.3s;
+}
+
+form div h3 {
+  font-size: 40px;
+  font-weight: 700;
+  color: aliceblue;
 }
 
 form div.form-container {
   width: 100%;
-  color: aliceblue;
   display: block;
   text-align: center;
-  transition: 0.3s;
+  
 }
 
-form div div.form-group {
+form div input.form-group {
   margin: 10px;
+  margin-top: 30px;
+  font-size: 25px;
 }
 
  
@@ -63,12 +73,14 @@ input.placeholder {
 }
  
 button.btn {
+  display: block;
+  width: 40%;
   padding: 10px;
-  margin: 24px;
+  margin: 20px 150px;
   cursor: pointer;
   font-size: 24px;
   background-color: #247BA0;
-  color: white;
+  color: aliceblue;
 }
 
 form div button.btn {
@@ -95,12 +107,15 @@ form div div h4#response {
 
 /* Tablets */
 @media screen and (max-width: 992px) {
-
+  form {
+    width: 50%;
+  }
+  
 }
   
   /* Large smartphones - navbar changes color */
   @media screen and (max-width: 768px) {
-
+    
 }
 
 /* Small smartphones - image placeholders change color */
