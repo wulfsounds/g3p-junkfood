@@ -51,7 +51,7 @@ html{
   color: white;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
-
+/* Help from csstricks.com for text border */
 }
 .jumbotron{
   margin-bottom: 0px;
@@ -88,6 +88,49 @@ font-weight: 600;
 #gifs{
   margin-top: 100px;
 }
+
+/* all credit goes to Yuhomyan https://codepen.io/yuhomyan */
+
+#shinybutton {  
+  border: none;
+  background: rgb(251,33,117);
+    background: linear-gradient(0deg, rgba(251,33,117,1) 0%, rgba(234,76,137,1) 100%);
+    color: #fff;
+    overflow: hidden;
+}
+#shinybutton:hover {
+    text-decoration: none;
+    color: #fff;
+}
+#shinybutton:before {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    top: -180px;
+    left: 0;
+    width: 30px;
+    height: 100%;
+    background-color: #fff;
+    animation: shiny-btn1 3s ease-in-out infinite;
+}
+#shinybutton:hover{
+  opacity: .7;
+}
+#shinybutton:active{
+  box-shadow:  4px 4px 6px 0 rgba(255,255,255,.3),
+              -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+}
+
+
+@-webkit-keyframes shiny-btn1 {
+    0% { -webkit-transform: scale(0) rotate(45deg); opacity: 0; }
+    80% { -webkit-transform: scale(0) rotate(45deg); opacity: 0.5; }
+    81% { -webkit-transform: scale(4) rotate(45deg); opacity: 1; }
+    100% { -webkit-transform: scale(50) rotate(45deg); opacity: 0; }
+}
+
 
 /* Media Queries */
 
