@@ -1,15 +1,11 @@
-/* * {
-  font-family: neue-haas-grotesk-display, sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 23px;
-  line-height: 25px;
-  letter-spacing: 0.5px;
-} */
-
 body {
   background-color: #dcbcc4;
   color: white;
+}
+
+nav {
+  margin: 25px;
+  font-size: 20px;
 }
 
 #junkfood {
@@ -17,6 +13,7 @@ body {
   font-weight: 900;
   font-style: normal;
   font-size: 50px;
+  text-align: center;
 }
 
 h2 {
@@ -24,37 +21,128 @@ h2 {
   font-weight: 900;
   font-style: normal;
   font-size: 125px;
+  text-align: center;
   margin: 0;
   /* height: 100px; */
 
 }
 
-.profile-pic {
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
-  border-radius: 50%;
+article {
+  display: flex;
+  flex-direction: column;
+  /* position: absolute; */
 }
 
+.media {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+
+.profile-pic {
+  display: flex;
+  flex: 1 0 auto;
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 50%;
+  
+  
+}
+
+/* Inna */
 .inna {
+  position: absolute;
   object-position: 0% 20%;
+  object-fit: cover;
+  border-radius: 50%;
+  left: 490px;
+  top: 150px;
+}
+
+.inna-nameplate {
+  position: absolute;
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 100px;
+  text-align: center;
+  margin: 0;
+
+  left: 820px;
+  top: 6.4em;
+}
+
+.inna-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  width: 165px;
+  top: 30em;
+  left: 520px;
+}
+
+.inna-git {
+  border-radius: 15px;
+}
+
+/* Victor */
+.victor {
+  position: absolute;
+  object-position: 0% 60%;
+  object-fit: cover;
+  border-radius: 50%;
+  right: 500px;
+  top: 800px;
+}
+
+.victor-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  width: 165px;
+  top: 70em;
+  right: 480px;
+}
+
+.victor-nameplate {
+  position: absolute;
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 100px;
+  text-align: center;
+  margin: 0;
+
+  right: 280px;
+  top: 6.4em;
 }
 
 .icons {
-  width: 25px;
+  width: 75px;
 }
+
 
 .bio {
   display: flex;
   flex: 1 0 auto;
-  width: 700px;
+  position: absolute;
+  top: 22em;
+  left: 700px;
+  width: 5000px;
 
   font-family: futura-pt,sans-serif;
   font-weight: 400;
   font-style: italic;
-  font-size: 20px;
-  line-height: 20px;
+  font-size: 35px;
+  line-height: 35px;
   letter-spacing: 0.5px;
+}
+
+p {
+  width: 1200px;
 }
 
 
