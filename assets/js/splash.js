@@ -9,8 +9,9 @@ var submissionResponse = document.querySelector("#response");
 function showResponse(event) {
   // Prevent default action
   event.preventDefault();
-  console.log(event);
+ 
   var response = " Thank you for your submission. ";
+  
   submissionResponse.textContent = response;
 }
   

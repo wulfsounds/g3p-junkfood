@@ -5,29 +5,31 @@
 }
 
 body {
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    background-size: cover;
-    animation: gradient 15s ease infinite;
-    height: 100vh;
-    /* font-family: kansasnew, serif; */
-    font-size: 45px;
-    font-weight: 800;
-    font-style: normal;
-    color: aliceblue;
-    margin: 0 auto;
-    font-family: "neue-haas-grotesk-display",sans-serif; 
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: cover;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+  font-size: 45px;
+  font-weight: 800;
+  font-style: normal;
+  color: aliceblue;
+  margin: 0 auto;
+  font-family: "neue-haas-grotesk-display",sans-serif; 
+  font-weight: 900;
+  font-style: normal;
+  letter-spacing: 0.5px;
 }
 
 @keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
 }
 
 /* Welcome page with login link */

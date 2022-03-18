@@ -30,6 +30,9 @@ div h2 a.junkfood-logo {
   flex-direction: row;
   justify-content: center;
   text-shadow: 0px 0px 20px #000000;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.5px;
 } 
 
 /* Form login page */
@@ -37,12 +40,13 @@ form {
   font-size: 30px;
   background: rgb(0, 0, 0, 0.6);
   padding: 30px;
-  margin: 30%;
+  margin: 35%;
   margin-top: 5%;
-  border-radius: 50px;  
+  border-radius: 50px;
 }
 
 form div.form-container {
+  width: 100%;
   color: aliceblue;
   display: block;
   text-align: center;
@@ -71,7 +75,7 @@ form div button.btn {
   text-align: right;
 }
 
-/* form div div h4#response {
+form div div h4#response {
   display: block;
   margin: 40px auto;
   text-align: center;
@@ -81,7 +85,7 @@ form div button.btn {
   background-color: #f0ead6;
   color: aqua;
 
-} */
+}
 
 
 
