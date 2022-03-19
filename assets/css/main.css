@@ -46,7 +46,7 @@ html{
 
 #junkwrapper h1 {
   padding-top: 100px;
-   font-family: neue-haas-grotesk-display,sans-serif;
+  font-family: neue-haas-grotesk-display,sans-serif;
   font-weight: 900;
   color: white;
   -webkit-text-stroke-width: 1px;
@@ -57,18 +57,18 @@ html{
   margin-bottom: 0px;
 }
 main{
-background-color: rgb(46, 44, 44);
+background-color: #dcbcc4;
 }
 
 #junkwrapper p{
 color: white;
 font-family: neue-haas-grotesk-display,sans-serif;
 font-weight: 600;
-}
+}s
 
 
-#memes h3{
-  font-weight: 900;
+.bold{
+  font-weight: bolder;
   color: white;
 }
 
@@ -89,12 +89,23 @@ font-weight: 600;
   margin-top: 100px;
 }
 
+/* #gifs .bold{
+  font-weight: 900;
+} */
+
+#gifs p {
+  padding: 50px;
+  font-size: 32px;
+  text-align: center;
+  background: #dbdfe5;
+}
+
 /* all credit goes to Yuhomyan https://codepen.io/yuhomyan */
 
 #shinybutton {  
   border: none;
-  background: rgb(251,33,117);
-    background: linear-gradient(0deg, rgba(251,33,117,1) 0%, rgba(234,76,137,1) 100%);
+  background: rgb(27, 48, 235);
+    background: linear-gradient(0deg, rgb(27, 48, 235) 0%, rgb(53, 70, 224)100%);
     color: #fff;
     overflow: hidden;
 }
