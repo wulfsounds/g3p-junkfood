@@ -1,4 +1,257 @@
-/* Media Queries */
+body {
+  background-color: #dcbcc4;
+  color: white;
+
+  height: 100vh;
+}
+
+nav {
+  position: absolute;
+  font-size: 35px;
+  text-align: left;
+  z-index: 1;
+  left: 75px;
+}
+
+a:link, a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+ color: black;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 150px;
+  /* width: 65% */
+}
+
+#junkfood {
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 50px;
+  text-align: center;
+  line-height: 0;
+}
+
+h2 {
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 300px;
+  text-align: center;
+  line-height: 0.75;
+  margin: 0;
+  /* height: 100px; */
+
+}
+main{
+  display: block;
+  flex: 1 0 auto;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  /* position: absolute; */
+}
+
+.media {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+
+.profile-pic {
+  display: flex;
+  flex: 1 0 auto;
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 50%;
+  
+  
+}
+
+/* Inna */
+.inna {
+  position: absolute;
+  object-position: 0% 20%;
+  object-fit: cover;
+  border-radius: 50%;
+  left: 490px;
+  top: 150px;
+}
+
+.inna-nameplate {
+  position: absolute;
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 100px;
+  text-align: center;
+  margin: 0;
+
+  left: 820px;
+  top:7.2em;
+}
+
+.inna-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  width: 165px;
+  top: 30em;
+  left: 520px;
+}
+
+.inna-bio {
+  display: flex;
+  flex: 1 1 auto;
+  position: absolute;
+  top: 24.2em;
+  left: 700px;
+  width: 1200px;
+
+  font-family: futura-pt,sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 35px;
+  line-height: 35px;
+  letter-spacing: 0.5px;
+}
+
+.inna-git {
+  border-radius: 15px;
+}
+
+/* Victor */
+.victor {
+  position: absolute;
+  object-position: 0% 60%;
+  object-fit: cover;
+  border-radius: 50%;
+  right: 500px;
+  top: 575px;
+}
+
+.victor-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  width: 165px;
+  top: 55em;
+  right: 480px;
+}
+
+.victor-nameplate {
+  position: absolute;
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 100px;
+  text-align: center;
+  margin: 0;
+
+  right: 775px;
+  top: 11.2em;
+}
+
+.icons {
+  width: 75px;
+}
+
+.victor-bio {
+  display: flex;
+  /* flex: 1 0 auto; */
+  position: absolute;
+  top: 35.7em;
+  left: 980px;
+  width: 1200px;
+
+  font-family: futura-pt,sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 35px;
+  line-height: 35px;
+  letter-spacing: 0.5px;
+  text-align: right;
+}
+
+/* Devin */
+
+.devin {
+  position: absolute;
+  object-position: 0% 20%;
+  object-fit: cover;
+  border-radius: 50%;
+  left: 490px;
+  top: 63em;
+}
+
+.devin-nameplate {
+  position: absolute;
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 100px;
+  text-align: center;
+  margin: 0;
+
+  left: 820px;
+  top: 15.9em;
+}
+
+.devin-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  width: 165px;
+  top: 83.6em;
+  left: 520px;
+}
+
+.devin-bio {
+  display: flex;
+  flex: 1 1 auto;
+  position: absolute;
+  top: 48.7em;
+  left: 700px;
+  width: 1200px;
+
+  font-family: futura-pt,sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 35px;
+  line-height: 35px;
+  letter-spacing: 0.5px;
+}
+
+p {
+  position: relative;
+  /* width: 1200px; */
+}
+
+footer {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: flex-end;
+  height: 20px;
+  top: 120vh;
+
+  font-size: 30px;
+}
+
+ /* Media Queries */
 
 /* Tablets */
 @media screen and (max-width: 992px) {
