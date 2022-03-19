@@ -5,8 +5,6 @@
 }
 
 body {
-  font-weight: 900;
-  font-style: normal;
   color: aliceblue;
   margin: 0 auto;
   font-family: "neue-haas-grotesk-display",sans-serif; 
@@ -35,7 +33,8 @@ body {
 div h3 a.login {
   display: block;
   float: right;
-  font-size: 25px;
+  font-size: 30px;
+  font-weight: 700;
   text-decoration: none;
   margin: 10px;
   color: aliceblue;
@@ -50,6 +49,7 @@ div h1 a#junkfood {
   justify-content: center;
   align-items: center;
   font-size: 200px;
+  font-weight: 900;
   color: aliceblue;
   width: 100vw;
   height: 85vh;
@@ -61,15 +61,34 @@ div h1 a#junkfood {
 
 /* Tablets */
 @media screen and (max-width: 992px) {
-
+  div h3 a.login {
+    width: 21.5%;
+  }
+  div h1 a#junkfood {
+    width: 100%;
+    font-size: 150px;
+    margin-right: 100px;
+  }
 }
   
   /* Large smartphones - navbar changes color */
   @media screen and (max-width: 768px) {
-
+    div h3 a.login {
+      width: 45%;
+     font-size: 20px;
+   }
+    div h1 a#junkfood {
+    font-size: 90px;
+  }
 }
 
 /* Small smartphones - image placeholders change color */
-  @media screen and (max-width: 576px) {
-
+@media screen and (max-width: 576px) {
+  div h3 a.login {
+    width: 45%;
+   font-size: 15px;
+ }
+ div h1 a#junkfood {
+  font-size: 80px;
+}
 }

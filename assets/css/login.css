@@ -8,13 +8,15 @@ body {
   font-family: "neue-haas-grotesk-display", sans-serif;
   background-image: url('https://source.unsplash.com/1600x900/?donuts');
   background-size: cover; 
-  width: 100%;
+  max-width: 100%;
+  max-height: 100vh;
 }
 
 /* Return to content */
 div h2 a.return {
   display: block;
   font-size: 30px;
+  font-weight: 700;
   text-decoration: none;
   margin: 10px;
   color: aliceblue;
@@ -25,6 +27,7 @@ div h2 a.return {
 div h1 a.junkfood-logo {
   font-family: "neue-haas-grotesk-display", sans-serif;
   font-size: 100px;
+  font-weight: 900;
   text-decoration: none;
   color: aliceblue;
   width: 100%;
@@ -40,7 +43,7 @@ div h1 a.junkfood-logo {
 form {
   font-size: 30px;
   width: 30%;
-  background: rgb(0, 0, 0, 0.6);
+  background: rgb(0, 0, 0, 0.8);
   padding: 10px;
   margin: 35%;
   margin-top: 5%;
@@ -54,17 +57,18 @@ form div h3 {
   color: aliceblue;
 }
 
-form div.form-container {
+form div.form-group {
   width: 100%;
   display: block;
   text-align: center;
   
 }
 
-form div input.form-group {
+form div input {
   margin: 10px;
-  margin-top: 30px;
+  margin-top: 20px;
   font-size: 25px;
+  cursor: pointer;
 }
 
  
@@ -74,9 +78,8 @@ input.placeholder {
  
 button.btn {
   display: block;
-  width: 40%;
   padding: 10px;
-  margin: 20px 150px;
+  margin: 20px 200px;
   cursor: pointer;
   font-size: 24px;
   background-color: #247BA0;
@@ -87,19 +90,18 @@ form div button.btn {
   text-align: right;
 }
 
-form div div h4#response {
-  display: block;
-  margin: 40px auto;
+h5#submissionResponse {
+  font-size: 35px;
+  font-weight: 700;
   text-align: center;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  width: 60vw;
-  background-color: #f0ead6;
-  color: aqua;
-
 }
 
-
+.modal-body {
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  padding: 5% 10%;
+  text-align: center;
+}
 
 
 
@@ -109,16 +111,33 @@ form div div h4#response {
 @media screen and (max-width: 992px) {
   form {
     width: 50%;
+    margin-left: 250px;
   }
-  
+  button.btn {
+    margin-left: 190px;
+  }
 }
   
   /* Large smartphones - navbar changes color */
   @media screen and (max-width: 768px) {
-    
+   form {
+     margin-left: 190px;
+   }
+   button.btn {
+    margin-left: 140px;
+  }
 }
 
 /* Small smartphones - image placeholders change color */
-  @media screen and (max-width: 576px) {
-
+@media screen and (max-width: 576px) {
+  form {
+    width: 60%;
+    margin-left: 115px;
+  }
+  form div input {
+    width: 75%;
+  }
+  button.btn {
+    margin-left: 125px;
+  }
 }
