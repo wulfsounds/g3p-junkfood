@@ -1,6 +1,7 @@
-var form = document.getElementById(".form-container");
+var form = document.getElementById(".form-group");
 var thankYouSection = document.getElementById("#confirmationModal");
 var submitBtn = document.querySelector("submit");
+var modalPopup = document.getElementById(".modal-thank-you");
 
 
 const inputName = document.querySelector("name");
@@ -12,30 +13,23 @@ const inputPassword = document.querySelector("password");
 
 submitBtn.addEventListener("submit", (e) => {
   e.preventDefault();
-  validateInputs();
-  if (isFormValid){
-    form.removal();
-    thankYouSection.classList.remove("hidden");
-  }
-})
-
-inputName.addEventListener('input', () => {
-  validateInputs
-})
-
-
-submitBtn.addEventListener("submit", function() {
-
   form.classList.remove("active");
   thankYouSection.classList.add("active");
 
-  thankYouSection.textContent = response;
-
-  validateInputs();
+  thankYouSection();
 })
 
 
 
 
+
+// Displays question with choices, score addition, and countdown penalty.
+function thankYouSection() {
+  
+
+  
+
+
+}
 
 
