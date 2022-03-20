@@ -31,12 +31,12 @@ header {
 }
 
 /* elena-koycheva */
-.wrapper {
+/* .wrapper {
   background-image: url('https://images.unsplash.com/photo-1533910534207-90f31029a78e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2787&q=80');
   background-size: 2000px;
   background-position: center;
   object-position: 10px 50%;
-}
+} */
 
 #junkfood {
   font-family: neue-haas-grotesk-display, sans-serif;
@@ -45,6 +45,7 @@ header {
   font-size: 50px;
   text-align: center;
   line-height: 0;
+  width: 300px;
 }
 
 h2 {
