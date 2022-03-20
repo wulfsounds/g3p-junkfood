@@ -1,0 +1,30 @@
+/* Bootstrap Manipulation */
+
+/* title dropdown */
+
+.dropdown-menu.show {
+    display: block;
+    background-color: rgb(197, 56, 197);
+    width: 953px;
+    top: 38px;
+}
+
+/* --Search Bar */
+
+
+.mr-lg-5, .mx-lg-5 {
+    margin-right: 5000px;
+}
+
+/* --Search Button */
+.btn-outline-success {
+    color: #fff;
+    border-color: #fff;
+}
+
+.btn-outline-success:hover {
+    color: #dcbcc4;
+    background-color: #fff;
+    border-color: #fff;
+}
+
