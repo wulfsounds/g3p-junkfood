@@ -32,33 +32,14 @@
       <form>
         <div class="form-group active">
           <h3>login</h3>
-          <input type="text" name="name" id="name" placeholder="name" style="text-align:center"/>
-          <input type="text" name="username" id="username" placeholder="username" style="text-align:center"/>
+          <input type="text" name="name" id="name" placeholder="name" style="text-align:center" required/>
+          <input type="text" name="username" id="username" placeholder="username" style="text-align:center"  required/>
           <input type="email" name="email" id="email" placeholder="email address" style="text-align:center" required/>
           <input type="password" name="password" id="password" placeholder="password" style="text-align:center" required/>
-          <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#confirmationModal">Submit</button>
+          <input type="button" value="submit" id="btn" onclick="showConfirmation()"/>
+          <h4 id="response"></h4>
         </div>
       </form>
-      
-      <!-- Thank you section -->
-      <!-- Vertically centered modal -->
-      <div class="modal fade" id="confirmationModal" tabindex="-1" aria-labelledby="submissionResponse" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-thank-you" id="submissionResponse">Thanks for joining junkfood!</h5>
-              <button type="submit" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              Junkfood is a platform that serves to provide entertaining gifs, memes, comics and satirical news. 
-              So whether you're a student making memes about their instructors, finding new ways to violate Facebook's 
-              terms and conditions, or Gary; there's something for everyone. 
-            </div>
-          </div>
-        </div>
-      </div>
 
 
     </body>
