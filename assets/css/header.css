@@ -3,28 +3,138 @@
 /* title dropdown */
 
 .dropdown-menu.show {
-    display: block;
-    background-color: rgb(197, 56, 197);
-    width: 953px;
-    top: 38px;
+	display: block;
+	background-color: rgb(197, 56, 197);
+	width: 953px;
+    height: 300px;
+	top: 38px;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background-color: transparent!important;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+    border: #fff 1px solid;
+    border-radius: 10px;
+}
+
+.link-head {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.link-body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    text-align: left;
+    line-height: 40px;
+    padding-left: 25px;
+}
+
+li {
+	font-size: 40px;
+	font-weight: 100;
+}
+
+.mini-link {
+    font-size: 30px;
 }
 
 /* --Search Bar */
 
-
-.mr-lg-5, .mx-lg-5 {
-    margin-right: 5000px;
+.mr-lg-5,
+.mx-lg-5 {
+	margin-right: 5000px;
 }
 
 /* --Search Button */
 .btn-outline-success {
-    color: #fff;
-    border-color: #fff;
+	color: #fff;
+	border-color: #fff;
 }
 
 .btn-outline-success:hover {
-    color: #dcbcc4;
-    background-color: #fff;
-    border-color: #fff;
+	color: #dcbcc4;
+	background-color: #fff;
+	border-color: #fff;
 }
 
+/* Main CSS */
+
+body {
+	background-color: #dcbcc4;
+	color: white;
+
+	height: 100vh;
+}
+
+nav {
+	position: absolute;
+	font-size: 35px;
+	text-align: left;
+	z-index: 1;
+	left: 75px;
+}
+
+a:link,
+a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+}
+
+header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 150px;
+	/* width: 65% */
+}
+
+#junkfood {
+	font-family: neue-haas-grotesk-display, sans-serif;
+	font-weight: 900;
+	font-style: normal;
+	font-size: 50px;
+	text-align: center;
+	line-height: 0;
+	color: #fff;
+}
+
+#junkfood:hover {
+color: #fd7e14;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+footer {
+	display: flex;
+	position: relative;
+	justify-content: center;
+	align-items: flex-end;
+	height: 20px;
+	top: 120vh;
+
+	font-size: 30px;
+}
