@@ -24,7 +24,8 @@ function renderGifs(){
     console.log(trendingGifs)
     for (i = 0; i < trendingGifs.data.length; i++){
         let gifs = trendingGifs.data[i].images.fixed_width.url
-        giflist.append(`<div class="col-xl-3 col-md-6 col-xxl-3"><img class="img-thumbnail" src="${gifs}"/></div>`)
+        giflist.append(`<div class="col-xl-3 col-md-6 col-xxl-3"><img id="gifies"
+         class="img-responsive img-thumbnail" src="${gifs}"/></div>`)
     }
     
     

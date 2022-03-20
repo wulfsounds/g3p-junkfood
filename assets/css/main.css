@@ -64,11 +64,11 @@ background-color: #dcbcc4;
 color: white;
 font-family: neue-haas-grotesk-display,sans-serif;
 font-weight: 600;
-}s
+}
 
 
 .bold{
-  font-weight: bolder;
+  font-weight: 900;
   color: white;
 }
 
@@ -77,6 +77,12 @@ font-weight: 600;
   font-size: 32px;
   text-align: center;
   background: #dbdfe5;
+}
+
+#gifies{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
 }
 
 #munchies_list {
