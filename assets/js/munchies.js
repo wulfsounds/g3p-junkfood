@@ -23,9 +23,9 @@ async function getMemeAPI(){
 }
 function renderMemes(){
     console.log(trendingMemes)
-    for (i = 0; i < trendingMemes.data.length; i++){
+    for (i = 0; i < trendingMemes.data.length - 48; i++){
         let memes = trendingMemes.data[i].images[0].link
-        if (trendingMemes.data.length <12){
+        if (trendingMemes.data.length > 12){
         memelist.append(`<div class="col-xl-3 col-md-6 col-xxl-3"><a href="${memes}" target="_blank"><img id="gifies"
          class="img-responsive img-thumbnail" src="${memes}"/></a></div>`)
     }
