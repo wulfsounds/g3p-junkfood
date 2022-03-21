@@ -6,14 +6,13 @@
 
 body {
   font-family: "neue-haas-grotesk-display", sans-serif;
-  /* background-image: url('https://source.unsplash.com/1600x900/?donut'); */
   background: #dcbcc4;
   background-size: cover; 
   max-width: 100%;
   max-height: 100vh;
 }
 
-/* Return to content */
+/* Return to main content */
 div h2 a.return {
   display: block;
   font-size: 30px;
@@ -21,12 +20,11 @@ div h2 a.return {
   text-decoration: none;
   margin: 10px;
   color: aliceblue;
-  /* text-shadow: 0px 0px 10px #000000; */
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
   padding: 5px;
 }
-
+/* Same title logo as welcome page */
 div h1 a.junkfood-logo {
   font-family: "neue-haas-grotesk-display", sans-serif;
   font-size: 100px;
@@ -37,7 +35,7 @@ div h1 a.junkfood-logo {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  text-shadow: 0px 0px 20px #000000;
+  text-shadow: 0px 0px 10px #000000;
   font-style: normal;
   letter-spacing: 0.5px;
 } 
@@ -46,16 +44,13 @@ div h1 a.junkfood-logo {
 form {
   font-size: 30px;
   width: 30%;
-  /* background: #dcbcc4; */
   padding: 10px;
   margin: 35%;
   margin-top: 5%;
   border-radius: 50px;
-  /* transition: 0.3s; */
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
-	/* height: 100vh; */
 }
 
 @keyframes gradient {
@@ -70,6 +65,7 @@ form {
   }
 }
 
+/* Login form section */
 form div h3 {
   font-size: 50px;
   font-weight: 900;
@@ -82,7 +78,6 @@ form div.form-group {
   width: 100%;
   display: block;
   text-align: center;
-  
 }
 
 form div input {
@@ -95,8 +90,6 @@ form div input {
 input.placeholder {
   text-align: center;
 }
-
-
  
 #btn {
   display: block;
@@ -108,10 +101,7 @@ input.placeholder {
   color: aliceblue;
 }
 
-form div button.btn {
-  text-align: right;
-}
-
+/* Clicking sumbit form will display login confirmation */
 h4#response {
   font-size: 20px;
   font-weight: 700;
