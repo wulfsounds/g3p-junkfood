@@ -21,21 +21,29 @@ async function getMemeAPI(){
     });
     renderMemes(trendingMemes);
 }
+
 function renderMemes(){
     console.log(trendingMemes)
-    for (i = 0; i < trendingMemes.data.length - 48; i++){
+    for (i = 0; i < trendingMemes.data.length - 40; i++){
         let memes = trendingMemes.data[i].images[0].link
-        if (trendingMemes.data[i].images[0].link == null){continue;}{
-        memelist.append(`<div class="col-xl-3 col-md-6 col-xxl-3"><a href="${memes}" target="_blank"><img id="gifies"
-         class="img-responsive img-thumbnail" src="${memes}"/></a></div>`)
-    }
+        // we want to check to see if the url string includes a file extension of '.mp4'
+        //if its a movie file we skip it ---could be updated to be put in a video rendering element instead
+        if (memes.includes('.mp4')) {continue}{
+            console.log(`this is a movie that is skipped: ${memes}`)    
+            //its an image file and we can use it on the page
+            memelist.append(`<div class="col-xl-3 col-md-6 col-xxl-3"><a href="${memes}" target="_blank"><img id="gifies"
+             class="img-responsive img-thumbnail" src="${memes}"/></a></div>`)
+
+        }
+        
+    
 
 }}
     
 
 
 
-
+// https://i.imgur.com/PU15d5C.mp4
 
 
 
