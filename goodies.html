@@ -8,31 +8,74 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://use.typekit.net/erz1sbw.css">
         <link rel="stylesheet" type="text/css" href="./assets/css/goodies.css" />
+        <link rel="stylesheet" type="text/css" href="./assets/css/header.css" />
         <title>JunkFood.</title>
         <link rel="shortcut icon" type="image/jpg" href="./assets/images/donut.jpg"/>
     </head>
     <body>
         <header>
-            <nav id="junknav" class="navbar navbar-expand-md navbar-dark fixed-top bg-primary justify-content-center">
-                <a class="navbar-brand" href="#">JunkFood.</a>
-                <div>
-                  <form class="form-inline justify-content-center" style="text-align: center;">
-                    <div class="input-group">
-                    <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Munch On..." aria-label="" aria-describedby="basic-addon1">
-                    <div class="input-group-append">
-                        <button id="shinybutton" class="btn btn-success" type="button">search.</button>
-                    </div>
-                    </div>
-                    </div>
-                </form>
+            <div class="weatherDash">
+                <h3 class="weather"></h3><h3 class="temp"></h3>
+            </div>
+            <time></time>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                aria-expanded="false">
+                                <h1 id="junkfood" class="hover">junkfood.</h1>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <ul class="link-head">
+                                    <li>
+                                        <a class="dropdown-item" href="./index.html">munchies</a>
+                                        <ul class="link-body">
+                                            <li><a href="#memes" class="mini-link">memes</a></li>
+                                            <li><a href="#gifs" class="mini-link">gifs</a></li>
+                                            <li><a href="#" class="mini-link">extras</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">goodies</a>
+                                        <ul class="link-body">
+                                            <li><a href="#faves" class="mini-link">faves</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="./about.html">snaccs</a>
+                                        <ul class="link-body">
+                                            <li><a href=".inna" class="mini-link">inna</a></li>
+                                            <li><a href=".victor" class="mini-link">victor</a></li>
+                                            <li><a href=".devin" class="mini-link">dev</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">links</a>
+                                        <ul class="link-body">
+                                            <li><a href="https://imgur.com/" class="mini-link">imgur</a></li>
+                                            <li><a href="https://giphy.com/" class="mini-link">giphy</a></li>
+                                            <li><a href="https://explosm.net/" class="mini-link">explosm</a></li>
+                                            <li><a href="https://xkcd.com/" class="mini-link">xkcd</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0" style="width: 1000px">
+                        <input class="form-control mr-lg-3" type="search" placeholder="Search" aria-label="Search"
+                            style="width: 575px">
+                        <button class="btn btn-outline-success my-5 my-sm-0" style="width: 125px;" type="submit">Search</button>
+                    </form>
                 </div>
             </nav>
-              <div id="junkwrapper" class="jumbotron">
-                <h1  class="display-3 text-center">Munchies</h1>
-                <p class="lead text-center">discover new cravings</p>
-              </div>
+            <a class="login" href="./login.html"><i class="fa-solid fa-user-ninja"></i> login / sign up</a>
         </header>
+        <div id="junkwrapper" class="jumbotron">
+            <h1  class="display-3 text-center">Munchies</h1>
+            <p class="lead text-center">discover new cravings</p>
+        </div>
         <main>
         <div id="faves" class="container-lg">
             <h3 class="bold" >goodies.</h3>
@@ -71,6 +114,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <!-- Self-Coded -->
         <script type="text/javascript" src="./assets/js/script.js"></script>
+        <script type="text/javascript" src="./assets/js/header.js"></script>
         <!-- Debuggin Script -->
         <!-- <script type="text/javascript" src="./assets/js/debug.js"></script> -->
 </html>

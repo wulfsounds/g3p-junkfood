@@ -5,38 +5,41 @@
 .dropdown-menu.show {
 	display: block;
 	background-color: rgb(197, 56, 197);
-	width: 953px;
-    height: 300px;
+	width: 963px;
+	height: 300px;
 	top: 38px;
+	left: 20px;
 }
 
-.dropdown-item:focus, .dropdown-item:hover {
-    color: #16181b;
-    text-decoration: none;
-    background-color: transparent!important;
+.dropdown-item:focus,
+.dropdown-item:hover {
+	color: #16181b;
+	text-decoration: none;
+	background-color: transparent !important;
 }
 
-.dropdown-item.active, .dropdown-item:active {
-    color: #fff;
-    text-decoration: none;
-    background-color: transparent;
-    border: #fff 1px solid;
-    border-radius: 10px;
+.dropdown-item.active,
+.dropdown-item:active {
+	color: #fff;
+	text-decoration: none;
+	background-color: transparent;
+	border: #fff 1px solid;
+	border-radius: 10px;
 }
 
 .link-head {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-evenly;
 }
 
 .link-body {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-    text-align: left;
-    line-height: 40px;
-    padding-left: 25px;
+	text-align: left;
+	line-height: 40px;
+	padding-left: 25px;
 }
 
 li {
@@ -45,7 +48,7 @@ li {
 }
 
 .mini-link {
-    font-size: 30px;
+	font-size: 30px;
 }
 
 /* --Search Bar */
@@ -62,18 +65,17 @@ li {
 }
 
 .btn-outline-success:hover {
-	color: #dcbcc4;
-	background-color: #fff;
-	border-color: #fff;
+	color: #ff6700;
+	background-color: #FFF;
+	border-color: #ff6700;
 }
+
 
 /* HEADER/FOOTER CSS */
 
 body {
 	background-color: #dcbcc4;
 	color: white;
-
-	height: 100vh;
 }
 
 nav {
@@ -81,7 +83,7 @@ nav {
 	font-size: 35px;
 	text-align: left;
 	z-index: 1;
-	left: 75px;
+	left: 65px;
 }
 
 a:link,
@@ -96,10 +98,44 @@ a:hover {
 
 header {
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: center;
 	height: 150px;
-	/* width: 65% */
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+time {
+	position: absolute;
+	color: #fff;
+	font-size: 25px;
+	left: 8em;
+	top: 52px
+}
+
+.weatherDash {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	left: -43.5em;
+}
+
+a.login {
+	display: block;
+	position: absolute;
+	float: right;
+	font-size: 30px;
+	font-weight: 700;
+	text-decoration: none;
+	margin: 10px;
+	color: aliceblue;
+	padding: 5px;
+
+	left: 86.5em;
+	top: 1em
 }
 
 #junkfood {
@@ -113,15 +149,21 @@ header {
 	width: 250px;
 }
 
-#junkfood:hover {
-color: #fd7e14;
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
-time {
-	position: absolute;
-	color: #fff;
-	font-size: 25px;
-	left: 2em;
+#junkfood:hover {
+	color: #fd7e14;
 }
 
 footer {
@@ -130,9 +172,6 @@ footer {
 	justify-content: center;
 	align-items: flex-end;
 	height: 20px;
-	top: 120vh;
-
+	top: 20vh;
 	font-size: 30px;
 }
-
-/* MAIN CSS */
