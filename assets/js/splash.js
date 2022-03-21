@@ -1,19 +1,21 @@
+// Global variables
 var submission = document.getElementById("#btn");
 var submissionResponse = document.querySelector("#response");
 
 
 let showConfirmation = () => {
-  // Get the data from each element on the form.
+  // Get the data from specific element on the form.
   const inputName = document.getElementById("name");
   const inputEmail = document.getElementById("email");
 
   // This variable stores all the data.
   let data = "Welcome " + inputName.value + "." + " \r\n " + "Thanks for joining junkfood!" + " \r\n " + " We will reach out to you at " + inputEmail.value + ".";
 
+  // Displays data in text
   submissionResponse.textContent = data;
-
 };
 
+// On click, it shows confirmation
 submissionResponse.addEventListener("click", showConfirmation);
 
 
