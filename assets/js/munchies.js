@@ -114,7 +114,7 @@ function renderMemeSearch(data){
 // Gifs Section
 async function getAPI(){
     // The giphy trend API that allows you to modify how many and rating that comes back
-    let gifTrend = `http://api.giphy.com/v1/gifs/trending?&api_key=${giphyKey}&rating=pg-13&limit=12`
+    let gifTrend = `https://api.giphy.com/v1/gifs/trending?&api_key=${giphyKey}&rating=pg-13&limit=12`
    await fetch(gifTrend)
     .then(function(response) {
         // console.log(response)
