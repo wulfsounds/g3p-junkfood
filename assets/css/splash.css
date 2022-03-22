@@ -30,7 +30,7 @@ body {
 }
 
 /* Login link */
-div h3 a.login {
+section h3 a.login {
   display: block;
   float: right;
   font-size: 30px;
@@ -44,7 +44,7 @@ div h3 a.login {
 }
 
 /* Welcome page junkfood title */
-div h1 a#junkfood {
+section h1 a#junkfood {
   display: flex;
   flex-direction: row;
   justify-content: center;

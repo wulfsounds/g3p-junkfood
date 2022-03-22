@@ -38,7 +38,7 @@ To create a dynamic front-end web application that incorporates an immersive UI 
 
 ## Issues/Troubleshooting
 
-* Side Quests!
+* Working on issue to utilize local storage for the goodies page.
 
 ## Debugging Updates
 
