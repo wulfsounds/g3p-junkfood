@@ -82,7 +82,7 @@ nav {
 	font-size: 35px;
 	text-align: left;
 	z-index: 1;
-	left: -72px;
+	/* left: -72px; */
 }
 
 a:link,
@@ -108,7 +108,7 @@ header {
 time {
 	/* position: absolute; */
 	color: #fff;
-	font-size: 40px;
+	font-size: 25px;
 	padding-bottom: 10px;
 	margin-left: 20px;
 	font-weight: 900;
@@ -123,13 +123,13 @@ time {
 	align-items: center;
 	position: relative;
 	margin-left: 25px;
-	font-size: 30px;
+	font-size: 20px;
 	/* left: -43.5em; */
-	width: 400px;
+	width: 200px;
 }
 
 .temp {
-	font-size: 50px;
+	font-size: 25px;
 }
 
 a.login {
