@@ -9,17 +9,17 @@ To create a dynamic front-end web application that incorporates an immersive UI 
 
 * [Victor Kennedy](https://github.com/Victorini1)
 
-* [Chris Weddington](https://github.com/cwed777)
-
 * [Devin Wulf](https://github.com/wulfsounds)
 
-## APIs
+## APIs Used
 
-* APIs and their links go here.
+* Imgur API
+* Giphy API
+* OpenWeather API
 
 ## Links
 
-* Additional code created by the online community goes here with available links.
+* Typeface: [Neue Haas Grotesk]('https://fonts.adobe.com/designers/christian-schwartz')
 
 ## Screenshots
 
@@ -29,7 +29,12 @@ To create a dynamic front-end web application that incorporates an immersive UI 
 
 🧚🏻  HEY! LISTEN!
 
-* Current list Main Quests!
+* FINISH THIS README
+* Shiny CSS
+* Build Presentation
+    -Build deck
+* Screenshots, Gifs
+* Final Review
 
 ## Issues/Troubleshooting
 
