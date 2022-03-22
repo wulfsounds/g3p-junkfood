@@ -49,7 +49,7 @@ console.log(searches)
 var myHeaders = new Headers();
 myHeaders.append("Authorization", "Client-ID b35300034a80255");
 
-var formdata = new FormData();
+// var formdata = new FormData();
 
 var requestOptions = {
   method: 'GET',
