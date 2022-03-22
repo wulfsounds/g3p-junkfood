@@ -73,7 +73,7 @@ var requestOptions = {
 }
 
 async function renderMemes(){
-    for (i = 0 ; i < trendingMemes.data.length - 35; i++){
+    for (i = 0 ; i < 30; i++){
         let memes = trendingMemes.data[i].images[0].link
         if(trendingMemes.data[i] === undefined){return}
         // we want to check to see if the url string includes a file extension of '.mp4'

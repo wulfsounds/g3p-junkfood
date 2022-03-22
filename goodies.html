@@ -81,9 +81,17 @@
         <p class="lead text-center">discover new cravings</p>
     </div>
     <main>
-        <section id="faves" class="container-lg">
+        <section id="faves" class="container">
             <h3 class="bold">goodies.</h3>
-            <article class="row">
+            <p class="justify-content-center align-content-center">Select images, they will be stored in your browser and will be displayed even after reload. Selecting big images (&gt; 2MB) can crash your browser.</p>
+<input type="file" id="files">
+
+
+<p id="state">No images stored in your browser.</p>
+<div id="list">
+</div>
+
+<a href="#" id="deleteImgs">Delete Images</a>
             </article>
         </section>
     </main>
@@ -108,6 +116,7 @@
 <!-- Self-Coded -->
 <!-- <script type="text/javascript" src="./assets/js/script.js"></script> -->
 <script type="text/javascript" src="./assets/js/header.js"></script>
+<script src="./assets/js/goodies.js"></script>
 <!-- Debuggin Script -->
 <!-- <script type="text/javascript" src="./assets/js/debug.js"></script> -->
 </html>
