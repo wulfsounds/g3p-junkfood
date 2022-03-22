@@ -144,7 +144,7 @@ function renderGifs(){
 
 function searchAPI(searches){
     // console.log(searches)
-    let searchURL = `http://api.giphy.com/v1/gifs/search?q=${searches}&api_key=${giphyKey}&rating=pg-13&limit=12`
+    let searchURL = `https://api.giphy.com/v1/gifs/search?q=${searches}&api_key=${giphyKey}&rating=pg-13&limit=12`
     fetch(searchURL)
     .then(function(response) {
         // console.log(response)
