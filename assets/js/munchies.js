@@ -7,6 +7,8 @@ const searchButton = $("#shinybutton")
 let imgurID = "b35300034a80255"
 let data;
 let searchbox= $("#searchbox")
+
+
 // click prevents default, but enter refreshes page?
 searchButton.click(function(event){
     event.preventDefault();
@@ -71,7 +73,7 @@ var requestOptions = {
 }
 
 async function renderMemes(){
-    for (i = 0 ; i < trendingMemes.data.length - 40; i++){
+    for (i = 0 ; i < 30; i++){
         let memes = trendingMemes.data[i].images[0].link
         if(trendingMemes.data[i] === undefined){return}
         // we want to check to see if the url string includes a file extension of '.mp4'
@@ -80,7 +82,7 @@ async function renderMemes(){
             // console.log(`this is a movie that is skipped: ${memes}`)    
             //its an image file and we can use it on the page
             memelist.append(`<div class="col-xl-3 col-md-6 col-xxl-3"><a href="${memes}" target="_blank"><img id="gifies"
-            class="img-responsive img-thumbnail" src="${memes}"/></a></div>`)
+            class="img-responsive img-thumbnail" src="${memes}"/></a></div></div>`)
             
         }        
         
@@ -88,8 +90,9 @@ async function renderMemes(){
 
 function renderMemeSearch(data){
     memelist.empty()
-    for (i = 0 ; i < data.data.length - 40; i++){
-        if(data.data[i] === undefined){return}
+    console.log(data)
+    for (i = 0 ; i < 24; i++){
+        if(!data || !data.data || !data.data[i] || !data.data[i].images[0]){return}
         let memes = data.data[i].images[0].link
         // we want to check to see if the url string includes a file extension of '.mp4'
         //if its a movie file we skip it ---could be updated to be put in a video rendering element instead

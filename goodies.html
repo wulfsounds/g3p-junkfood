@@ -7,8 +7,8 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.typekit.net/erz1sbw.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/goodies.css" />
     <link rel="stylesheet" type="text/css" href="./assets/css/header.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/goodies.css" />
     <title>JunkFood.</title>
     <link rel="shortcut icon" type="image/jpg" href="./assets/images/donut.jpg" />
 </head>
@@ -77,14 +77,28 @@
         <a class="login" href="./login.html"><i class="fa-solid fa-user-ninja"></i> login / sign up</a>
     </header>
     <div id="junkwrapper" class="jumbotron">
-        <h1 class="display-3 text-center">Munchies</h1>
-        <p class="lead text-center">discover new cravings</p>
+        <h1 class="display-3 text-center">Goodies</h1>
+        <p class="lead text-center">Store your favorite Memes Here</p>
     </div>
     <main>
-        <section id="faves" class="container-lg">
-            <h3 class="bold">goodies.</h3>
-            <article class="row">
-            </article>
+        <section id="faves" class="container-fluid">
+            <div class="col-12">  
+
+            <h3 class="bold">Faves</h3>
+            
+            <p>Upload your favorite Meme here and it will be saved to your local storage!</p>
+            <div>
+                <label for="formFileLg" class="form-label">Click here to add</label>
+                <input class="form-control form-control-lg" id="formFileLg" type="file">
+              </div>
+
+
+    <p id="state">Add some goodies to your storage.</p>
+    
+    <div id="list"class="row"></div>
+
+    <a href="#" id="deleteImgs">Delete Images</a>
+    </div>
         </section>
     </main>
     <footer>
@@ -108,6 +122,7 @@
 <!-- Self-Coded -->
 <!-- <script type="text/javascript" src="./assets/js/script.js"></script> -->
 <script type="text/javascript" src="./assets/js/header.js"></script>
+<script src="./assets/js/goodies.js"></script>
 <!-- Debuggin Script -->
 <!-- <script type="text/javascript" src="./assets/js/debug.js"></script> -->
 </html>
