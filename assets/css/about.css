@@ -30,14 +30,6 @@ header {
   /* width: 65% */
 }
 
-/* elena-koycheva */
-/* .wrapper {
-  background-image: url('https://images.unsplash.com/photo-1533910534207-90f31029a78e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2787&q=80');
-  background-size: 2000px;
-  background-position: center;
-  object-position: 10px 50%;
-} */
-
 #junkfood {
   font-family: neue-haas-grotesk-display, sans-serif;
   font-weight: 900;
@@ -59,21 +51,38 @@ h2 {
   /* height: 100px; */
 
 }
+
 main{
-  display: block;
+  display: flex;
   flex: 1 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15em;
 }
 
 article {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 2200px;
+  margin-left: 20em;
+  margin-top: 20px;
   /* position: absolute; */
+}
+
+.reverse {
+  flex-direction: row-reverse;
 }
 
 .media {
   display: flex;
   position: relative;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .profile-pic {
@@ -89,7 +98,7 @@ article {
 
 /* Inna */
 .inna {
-  position: absolute;
+  /* position: absolute; */
   object-position: 0% 20%;
   object-fit: cover;
   border-radius: 50%;
@@ -106,8 +115,8 @@ article {
   text-align: center;
   margin: 0;
 
-  left: 820px;
-  top:7.2em;
+  left: 3.2em;
+  /* top:7.2em; */
 }
 
 .inna-icons {
@@ -116,16 +125,17 @@ article {
   justify-content: space-between;
   position: absolute;
   width: 165px;
-  top: 30em;
-  left: 520px;
+  top: 20em;
+  left: 15px;
 }
 
 .inna-bio {
   display: flex;
   flex: 1 1 auto;
-  position: absolute;
-  top: 24.2em;
-  left: 700px;
+  flex-direction: column;
+  position: position;
+  /* top: 24.2em; */
+  /* left: 700px; */
   width: 1200px;
 
   font-family: futura-pt,sans-serif;
@@ -142,7 +152,7 @@ article {
 
 /* Victor */
 .victor {
-  position: absolute;
+  /* position: absolute; */
   object-position: 0% 60%;
   object-fit: cover;
   border-radius: 50%;
@@ -156,8 +166,8 @@ article {
   justify-content: space-between;
   position: absolute;
   width: 165px;
-  top: 55em;
-  right: 480px;
+  top: 20em;
+  left: 215px;
 }
 
 .victor-nameplate {
@@ -168,9 +178,8 @@ article {
   font-size: 100px;
   text-align: center;
   margin: 0;
-
-  right: 775px;
-  top: 11.2em;
+  top: 2em;
+  right: 6em;
 }
 
 .icons {
@@ -179,8 +188,9 @@ article {
 
 .victor-bio {
   display: flex;
+  flex-direction: column;
   /* flex: 1 0 auto; */
-  position: absolute;
+  /* position: absolute; */
   top: 35.7em;
   left: 980px;
   width: 1200px;
@@ -197,7 +207,7 @@ article {
 /* Devin */
 
 .devin {
-  position: absolute;
+  /* position: absolute; */
   object-position: 0% 20%;
   object-fit: cover;
   border-radius: 50%;
@@ -214,8 +224,8 @@ article {
   text-align: center;
   margin: 0;
 
-  left: 820px;
-  top: 15.9em;
+  left: 3.2em;
+  top: 2em;
 }
 
 .devin-icons {
@@ -224,14 +234,14 @@ article {
   justify-content: space-between;
   position: absolute;
   width: 165px;
-  top: 83.6em;
-  left: 520px;
+  top: 20em;
+  left: 15px;
 }
 
 .devin-bio {
   display: flex;
   flex: 1 1 auto;
-  position: absolute;
+  /* position: absolute; */
   top: 48.7em;
   left: 700px;
   width: 1200px;
@@ -246,7 +256,19 @@ article {
 
 p {
   position: relative;
-  /* width: 1200px; */
+  width: 1200px;
+}
+
+.quote {
+  position: absolute;
+  top: 9em;
+  left: 6em;
+}
+
+.quote-reverse {
+  position: absolute;
+  top: 9em;
+  right: 15em
 }
 
 footer {
@@ -255,7 +277,7 @@ footer {
   justify-content: center;
   align-items: flex-end;
   height: 20px;
-  top: 120vh;
+  top: 20vh;
 
   font-size: 30px;
 }
