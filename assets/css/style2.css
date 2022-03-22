@@ -1,0 +1,23 @@
+* {
+    .container button{
+        border: none;
+        padding: 8px 16px;
+        background-color:deepSkyblue;
+        color: white;
+        transition: 0.3s;
+     }
+
+     .dropdown button:hover{
+         background-color:gray;
+     }
+
+     .dropdown div a{
+         display: block;
+         text-decoration:none;
+         padding:8px;
+         color: black;
+     }
+
+    
+
+
