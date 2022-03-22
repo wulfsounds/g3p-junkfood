@@ -1,120 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://use.typekit.net/erz1sbw.css">
-        <link rel="stylesheet" type="text/css" href="./assets/css/goodies.css" />
-        <link rel="stylesheet" type="text/css" href="./assets/css/header.css" />
-        <title>JunkFood.</title>
-        <link rel="shortcut icon" type="image/jpg" href="./assets/images/donut.jpg"/>
-    </head>
-    <body>
-        <header>
-            <div class="weatherDash">
-                <h3 class="weather"></h3><h3 class="temp"></h3>
-            </div>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.typekit.net/erz1sbw.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/goodies.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="./assets/css/main.css" /> -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/header.css" />
+    <title>JunkFood.</title>
+    <link rel="shortcut icon" type="image/jpg" href="./assets/images/donut.jpg" />
+</head>
+
+<body>
+    <header id="junknav">
+        <div class="weatherDash">
+            <h3 class="weather"></h3>
+            <h3 class="temp"></h3>
             <time></time>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                                aria-expanded="false">
-                                <h1 id="junkfood" class="hover">junkfood.</h1>
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <ul class="link-head">
-                                    <li>
-                                        <a class="dropdown-item" href="./index.html">munchies</a>
-                                        <ul class="link-body">
-                                            <li><a href="#memes" class="mini-link">memes</a></li>
-                                            <li><a href="#gifs" class="mini-link">gifs</a></li>
-                                            <li><a href="#" class="mini-link">extras</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#">goodies</a>
-                                        <ul class="link-body">
-                                            <li><a href="#faves" class="mini-link">faves</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="./about.html">snaccs</a>
-                                        <ul class="link-body">
-                                            <li><a href=".inna" class="mini-link">inna</a></li>
-                                            <li><a href=".victor" class="mini-link">victor</a></li>
-                                            <li><a href=".devin" class="mini-link">dev</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#">links</a>
-                                        <ul class="link-body">
-                                            <li><a href="https://imgur.com/" class="mini-link">imgur</a></li>
-                                            <li><a href="https://giphy.com/" class="mini-link">giphy</a></li>
-                                            <li><a href="https://explosm.net/" class="mini-link">explosm</a></li>
-                                            <li><a href="https://xkcd.com/" class="mini-link">xkcd</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                    </ul>
-                    <form class="form-inline my-2 my-lg-0" style="width: 1000px">
-                        <input class="form-control mr-lg-3" type="search" placeholder="Search" aria-label="Search"
-                            style="width: 575px">
-                        <button class="btn btn-outline-success my-5 my-sm-0" style="width: 125px;" type="submit">Search</button>
-                    </form>
-                </div>
-            </nav>
-            <a class="login" href="./login.html"><i class="fa-solid fa-user-ninja"></i> login / sign up</a>
-        </header>
-        <div id="junkwrapper" class="jumbotron">
-            <h1  class="display-3 text-center">Munchies</h1>
-            <p class="lead text-center">discover new cravings</p>
         </div>
-        <main>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-expanded="true">
+                            <h1 id="junkfood" class="hover">junkfood.</h1>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <ul class="link-head">
+                                <li>
+                                    <a class="dropdown-item" href="./index.html">munchies</a>
+                                    <ul class="link-body">
+                                        <li><a href="#memes" class="mini-link">memes</a></li>
+                                        <li><a href="#gifs" class="mini-link">gifs</a></li>
+                                        <li><a href="#" class="mini-link">extras</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">goodies</a>
+                                    <ul class="link-body">
+                                        <li><a href="#faves" class="mini-link">faves</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="./about.html">snaccs</a>
+                                    <ul class="link-body">
+                                        <li><a href=".inna" class="mini-link">inna</a></li>
+                                        <li><a href=".victor" class="mini-link">victor</a></li>
+                                        <li><a href=".devin" class="mini-link">dev</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">links</a>
+                                    <ul class="link-body">
+                                        <li><a href="https://imgur.com/" class="mini-link">imgur</a></li>
+                                        <li><a href="https://giphy.com/" class="mini-link">giphy</a></li>
+                                        <li><a href="https://explosm.net/" class="mini-link">explosm</a></li>
+                                        <li><a href="https://xkcd.com/" class="mini-link">xkcd</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-lg-3" type="search" placeholder="munch on.." aria-label="Search"
+                        style="width: 575px">
+                    <button class="btn btn-outline-success my-5 my-sm-0" style="width: 125px;"
+                        type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+        <a class="login" href="./login.html"><i class="fa-solid fa-user-ninja"></i> login / sign up</a>
+    </header>
+    <div id="junkwrapper" class="jumbotron">
+        <h1 class="display-3 text-center">Munchies</h1>
+        <p class="lead text-center">discover new cravings</p>
+    </div>
+    <main>
         <div id="faves" class="container-lg">
-            <h3 class="bold" >goodies.</h3>
+            <h3 class="bold">goodies.</h3>
             <div class="row">
-                <div class="col-xl-3 col-md-6 col-xxl-3"><p>Box 1</p></div>
-                <div class="col-xl-3 col-md-6 col-xxl-3"><p>Box 2</p></div>
-                <div class="col-xl-3 col-md-6 col-xxl-3"><p>Box 3</p></div>
-                <div class="col-xl-3 col-md-6 col-xxl-3"><p>Box 4</p></div>
-                <div class="col-xl-3 col-md-6 col-xxl-3"><p>Box 5</p></div>
-                <div class="col-xl-3 col-md-6 col-xxl-3"><p>Box 6</p></div>
-                <div class="col-xl-3 col-md-6 col-xxl-3"><p>Box 7</p></div>
-                <div class="col-xl-3 col-md-6 col-xxl-3"><p>Box 8</p></div>
-                <div class="col-xl-3 col-md-6 col-xxl-3"><p>Box 9</p></div>
-                <div class="col-xl-3 col-md-6 col-xxl-3"><p>Box 10</p></div>
-                <div class="col-xl-3 col-md-6 col-xxl-3"><p>Box 11</p></div>
-                <div class="col-xl-3 col-md-6 col-xxl-3"><p>Box 12</p></div>
-                <div class="col-xl-3 col-md-6 col-xxl-3"><p>Box 13</p></div>
-                <div class="col-xl-3 col-md-6 col-xxl-3"><p>Box 14</p></div>
-                <div class="col-xl-3 col-md-6 col-xxl-3"><p>Box 15</p></div>
-                <div class="col-xl-3 col-md-6 col-xxl-3"><p>Box 16</p></div>
-                <div class="col-xl-3 col-md-6 col-xxl-3"><p>Box 17</p></div>
-                <div class="col-xl-3 col-md-6 col-xxl-3"><p>Box 18</p></div>
-                <div class="col-xl-3 col-md-6 col-xxl-3"><p>Box 19</p></div>
-                <div class="col-xl-3 col-md-6 col-xxl-3"><p>Box 20</p></div>
-                <div class="col-xl-3 col-md-6 col-xxl-3"><p>Box 21</p></div>
-                <div class="col-xl-3 col-md-6 col-xxl-3"><p>Box 22</p></div>
-                <div class="col-xl-3 col-md-6 col-xxl-3"><p>Box 23</p></div>
-                <div class="col-xl-3 col-md-6 col-xxl-3"><p>Box 24</p></div>
+                <div class="col-xl-3 col-md-6 col-xxl-3">
+                    <p>Box 1</p>
+                </div>
+                <div class="col-xl-3 col-md-6 col-xxl-3">
+                    <p>Box 2</p>
+                </div>
+                <div class="col-xl-3 col-md-6 col-xxl-3">
+                    <p>Box 3</p>
+                </div>
+                <div class="col-xl-3 col-md-6 col-xxl-3">
+                    <p>Box 4</p>
+                </div>
+                <div class="col-xl-3 col-md-6 col-xxl-3">
+                    <p>Box 5</p>
+                </div>
+                <div class="col-xl-3 col-md-6 col-xxl-3">
+                    <p>Box 6</p>
+                </div>
+                <div class="col-xl-3 col-md-6 col-xxl-3">
+                    <p>Box 7</p>
+                </div>
+                <div class="col-xl-3 col-md-6 col-xxl-3">
+                    <p>Box 8</p>
+                </div>
+                <div class="col-xl-3 col-md-6 col-xxl-3">
+                    <p>Box 9</p>
+                </div>
+                <div class="col-xl-3 col-md-6 col-xxl-3">
+                    <p>Box 10</p>
+                </div>
+                <div class="col-xl-3 col-md-6 col-xxl-3">
+                    <p>Box 11</p>
+                </div>
+                <div class="col-xl-3 col-md-6 col-xxl-3">
+                    <p>Box 12</p>
+                </div>
+                <div class="col-xl-3 col-md-6 col-xxl-3">
+                    <p>Box 13</p>
+                </div>
+                <div class="col-xl-3 col-md-6 col-xxl-3">
+                    <p>Box 14</p>
+                </div>
+                <div class="col-xl-3 col-md-6 col-xxl-3">
+                    <p>Box 15</p>
+                </div>
+                <div class="col-xl-3 col-md-6 col-xxl-3">
+                    <p>Box 16</p>
+                </div>
+                <div class="col-xl-3 col-md-6 col-xxl-3">
+                    <p>Box 17</p>
+                </div>
+                <div class="col-xl-3 col-md-6 col-xxl-3">
+                    <p>Box 18</p>
+                </div>
+                <div class="col-xl-3 col-md-6 col-xxl-3">
+                    <p>Box 19</p>
+                </div>
+                <div class="col-xl-3 col-md-6 col-xxl-3">
+                    <p>Box 20</p>
+                </div>
+                <div class="col-xl-3 col-md-6 col-xxl-3">
+                    <p>Box 21</p>
+                </div>
+                <div class="col-xl-3 col-md-6 col-xxl-3">
+                    <p>Box 22</p>
+                </div>
+                <div class="col-xl-3 col-md-6 col-xxl-3">
+                    <p>Box 23</p>
+                </div>
+                <div class="col-xl-3 col-md-6 col-xxl-3">
+                    <p>Box 24</p>
+                </div>
             </div>
         </div>
-        </main>
-    </body>
-        <!-- jQuery -->
-        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-        <!-- Moment.js -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        <!-- Self-Coded -->
-        <script type="text/javascript" src="./assets/js/script.js"></script>
-        <script type="text/javascript" src="./assets/js/header.js"></script>
-        <!-- Debuggin Script -->
-        <!-- <script type="text/javascript" src="./assets/js/debug.js"></script> -->
+    </main>
+</body>
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<!-- Moment.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"
+    integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- Bootstrap v 4.6 -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+    integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+    crossorigin="anonymous"></script>
+<!-- Self-Coded -->
+<!-- <script type="text/javascript" src="./assets/js/script.js"></script> -->
+<script type="text/javascript" src="./assets/js/header.js"></script>
+<!-- Debuggin Script -->
+<!-- <script type="text/javascript" src="./assets/js/debug.js"></script> -->
 </html>
