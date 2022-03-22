@@ -20,47 +20,20 @@ To create a dynamic front-end web application that incorporates an immersive UI 
 ## Links
 
 * Typeface: [Neue Haas Grotesk]('https://fonts.adobe.com/designers/christian-schwartz')
+* Local Storage Assist: [thbwd]('https://codepen.io/thbwd/pen/qBKGwx')
+* Dynamic Rainbow Background: [Manual Pinto on CodePen]('https://codepen.io/P1N2O/pen/pyBNzX')
 
 ## Screenshots
 
-* 📸
+View the deployed site here: [Junkfood.]('https://wulfsounds.github.io/g3p-junkfood/')
 
-## Quest Items
+View the Repo Here: [GitHub]('https://github.com/wulfsounds/g3p-junkfood')
 
-🧚🏻  HEY! LISTEN!
+<img src="./assets/images/splash-screenshot.png" alt="splash-screenshot" />
 
-* FINISH THIS README
-* Shiny CSS
-* Build Presentation
-    -Build deck
-* Screenshots, Gifs
-* Final Review
+<img src="./assets/images/junkfood-index-screenshot.png" alt="munchies-page" />
 
-## Issues/Troubleshooting
-
-* Working on issue to utilize local storage for the goodies page.
-
-## Debugging Updates
-
-* Log all debuggin updates here uptil completed.
-
-## HTML Updates
-
-* Created "munchies" page
-* We may not hover boards in 2022, but we have..
-# HOVER MENUS
-...WITH LINKS TOO!
-
-<img src="https://i.makeagif.com/media/10-20-2015/q-6xYu.gif" alt="hover-boards" width="500px" />
-
-
-## CSS
-
-* All things CSS goes here.
-
-## JavaScript
-
-* All things JavaScript goes here.
+<img src="./assets/images/hover-menu.gif" alt="munchies-page" />
 
 ------------------------------------------------------
 2022 SMU Coding Bootcamp, Group 3, Project 1
