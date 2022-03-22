@@ -7,7 +7,7 @@
 	background-color: rgb(197, 56, 197);
 	width: 963px;
 	height: 300px;
-	top: 38px;
+	/* top: 38px; */
 	left: 20px;
 }
 
@@ -66,10 +66,9 @@ li {
 
 .btn-outline-success:hover {
 	color: #ff6700;
-	background-color: #FFF;
+	background-color: #fff;
 	border-color: #ff6700;
 }
-
 
 /* HEADER/FOOTER CSS */
 
@@ -79,11 +78,11 @@ body {
 }
 
 nav {
-	position: absolute;
+	/* position: absolute; */
 	font-size: 35px;
 	text-align: left;
 	z-index: 1;
-	left: 65px;
+	/* left: -72px; */
 }
 
 a:link,
@@ -98,7 +97,7 @@ a:hover {
 
 header {
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
 	height: 150px;
 	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
@@ -107,35 +106,45 @@ header {
 }
 
 time {
-	position: absolute;
+	/* position: absolute; */
 	color: #fff;
-	font-size: 25px;
-	left: 8em;
-	top: 52px
+	font-size: 40px;
+	padding-bottom: 10px;
+	margin-left: 20px;
+	font-weight: 900;
+	/* left: 8em; */
+	/* top: 52px */
 }
 
 .weatherDash {
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
 	position: relative;
-	left: -43.5em;
+	margin-left: 50px;
+	font-size: 30px;
+	/* left: -43.5em; */
+	width: 400px;
+}
+
+.temp {
+	font-size: 50px;
 }
 
 a.login {
 	display: block;
-	position: absolute;
+	/* position: absolute; */
 	float: right;
 	font-size: 30px;
 	font-weight: 700;
 	text-decoration: none;
-	margin: 10px;
+	margin: 50px;
 	color: aliceblue;
 	padding: 5px;
 
-	left: 86.5em;
-	top: 1em
+	/* left: 86.5em; */
+	/* top: 1em */
 }
 
 #junkfood {
@@ -148,7 +157,6 @@ a.login {
 	color: #fff;
 	width: 250px;
 }
-
 
 @keyframes gradient {
 	0% {
