@@ -1,58 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="https://use.typekit.net/erz1sbw.css"/>
-    <link rel="stylesheet" type="text/css" href="./assets/css/main.css" />
-    <link rel="stylesheet" type="text/css" href="./assets/css/login.css" />
-    <title>Login - junkfood.</title>
-    </head>
-    <body>
 
-      <!-- Return to main content -->
-      <div>
-        <h2>
-            <a class="return" href="./munchies.html">go to junkfood.</a>
-        </h2>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.typekit.net/erz1sbw.css" />
+  <link rel="stylesheet" type="text/css" href="./assets/css/main.css" />
+  <link rel="stylesheet" type="text/css" href="./assets/css/login.css" />
+  <title>Login - junkfood.</title>
+</head>
 
-      <!-- Title logo -->
-      <div class="container">
-        <h1>
-          <a class="junkfood-logo" href="./index.html">junkfood.</a>
-        </h1>
-      </div>
+<body>
 
-      <!-- Login form section-->
-      <form>
-        <div class="form-group active">
-          <h3>login</h3>
-          <input type="text" name="name" id="name" placeholder="name" style="text-align:center" required/>
-          <input type="text" name="username" id="username" placeholder="username" style="text-align:center"  required/>
-          <input type="email" name="email" id="email" placeholder="email address" style="text-align:center" required/>
-          <input type="password" name="password" id="password" placeholder="password" style="text-align:center" required/>
-          <input type="button" value="submit" id="btn" onclick="showConfirmation()"/>
-          <h4 id="response"></h4>
-        </div>
-      </form>
+  <!-- Return to main content -->
+  <section>
+    <h2>
+      <a class="return" href="./index.html">go to junkfood.</a>
+    </h2>
+  </section>
+
+  <!-- Title logo -->
+  <section class="container">
+    <h1>
+      <a class="junkfood-logo" href="./index.html">junkfood.</a>
+    </h1>
+  </section>
+
+  <!-- Login form section-->
+  <form>
+    <div class="form-group active">
+      <h3>login</h3>
+      <input type="text" name="name" id="name" placeholder="name" style="text-align:center" required />
+      <input type="text" name="username" id="username" placeholder="username" style="text-align:center" required />
+      <input type="email" name="email" id="email" placeholder="email address" style="text-align:center" required />
+      <input type="password" name="password" id="password" placeholder="password" style="text-align:center" required />
+      <input type="button" value="submit" id="btn" onclick="showConfirmation()" />
+      <h4 id="response"></h4>
+    </div>
+  </form>
 
 
-    </body>
+</body>
 
-    <!-- Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
-   <!-- Splash.js -->
-    <script src="./assets/js/splash.js"></script>
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <!-- Moment.js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <!-- Self-Coded -->
-    <script type="text/javascript" src="./assets/js/script.js"></script>
+<!-- Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+<!-- Splash.js -->
+<script src="./assets/js/splash.js"></script>
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<!-- Moment.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"
+  integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- Self-Coded -->
+<script type="text/javascript" src="./assets/js/script.js"></script>
 
 </html>

@@ -13,7 +13,7 @@ body {
 }
 
 /* Return to main content */
-div h2 a.return {
+section h2 a.return {
   display: block;
   font-size: 30px;
   font-weight: 700;
@@ -33,7 +33,7 @@ div h2 a.return {
   align-items: center;
 }
 
-div h1 a.junkfood-logo {
+section h1 a.junkfood-logo {
   font-family: "neue-haas-grotesk-display", sans-serif;
   font-size: 100px;
   font-weight: 900;
