@@ -1,0 +1,300 @@
+body {
+  background-color: #dcbcc4;
+  color: white;
+
+  height: 100vh;
+}
+
+nav {
+  position: absolute;
+  font-size: 35px;
+  text-align: left;
+  z-index: 1;
+  left: 75px;
+}
+
+a:link, a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+ color: black;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 150px;
+  /* width: 65% */
+}
+
+#junkfood {
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 50px;
+  text-align: center;
+  line-height: 0;
+  width: 300px;
+}
+
+h2 {
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 300px;
+  text-align: center;
+  line-height: 0.75;
+  margin: 0;
+  /* height: 100px; */
+
+}
+
+main{
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15em;
+}
+
+article {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 2200px;
+  margin-left: 20em;
+  margin-top: 20px;
+  /* position: absolute; */
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.media {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-pic {
+  display: flex;
+  flex: 1 0 auto;
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 50%;
+  
+  
+}
+
+/* Inna */
+.inna {
+  /* position: absolute; */
+  object-position: 0% 20%;
+  object-fit: cover;
+  border-radius: 50%;
+  left: 490px;
+  top: 150px;
+}
+
+.inna-nameplate {
+  position: absolute;
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 100px;
+  text-align: center;
+  margin: 0;
+
+  left: 3.2em;
+  /* top:7.2em; */
+}
+
+.inna-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  width: 165px;
+  top: 20em;
+  left: 15px;
+}
+
+.inna-bio {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  position: position;
+  /* top: 24.2em; */
+  /* left: 700px; */
+  width: 1200px;
+
+  font-family: futura-pt,sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 35px;
+  line-height: 35px;
+  letter-spacing: 0.5px;
+}
+
+.inna-git {
+  border-radius: 15px;
+}
+
+/* Victor */
+.victor {
+  /* position: absolute; */
+  object-position: 0% 60%;
+  object-fit: cover;
+  border-radius: 50%;
+  right: 500px;
+  top: 575px;
+}
+
+.victor-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  width: 165px;
+  top: 20em;
+  left: 215px;
+}
+
+.victor-nameplate {
+  position: absolute;
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 100px;
+  text-align: center;
+  margin: 0;
+  top: 2em;
+  right: 6em;
+}
+
+.icons {
+  width: 75px;
+}
+
+.victor-bio {
+  display: flex;
+  flex-direction: column;
+  /* flex: 1 0 auto; */
+  /* position: absolute; */
+  top: 35.7em;
+  left: 980px;
+  width: 1200px;
+
+  font-family: futura-pt,sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 35px;
+  line-height: 35px;
+  letter-spacing: 0.5px;
+  text-align: right;
+}
+
+/* Devin */
+
+.devin {
+  /* position: absolute; */
+  object-position: 0% 20%;
+  object-fit: cover;
+  border-radius: 50%;
+  left: 490px;
+  top: 63em;
+}
+
+.devin-nameplate {
+  position: absolute;
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 100px;
+  text-align: center;
+  margin: 0;
+
+  left: 3.2em;
+  top: 2em;
+}
+
+.devin-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  width: 165px;
+  top: 20em;
+  left: 15px;
+}
+
+.devin-bio {
+  display: flex;
+  flex: 1 1 auto;
+  /* position: absolute; */
+  top: 48.7em;
+  left: 700px;
+  width: 1200px;
+
+  font-family: futura-pt,sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 35px;
+  line-height: 35px;
+  letter-spacing: 0.5px;
+}
+
+p {
+  position: relative;
+  width: 1200px;
+}
+
+.quote {
+  position: absolute;
+  top: 9em;
+  left: 6em;
+}
+
+.quote-reverse {
+  position: absolute;
+  top: 9em;
+  right: 15em
+}
+
+footer {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: flex-end;
+  height: 20px;
+  top: 20vh;
+
+  font-size: 30px;
+}
+
+ /* Media Queries */
+
+/* Tablets */
+@media screen and (max-width: 992px) {
+
+}
+  
+  /* Large smartphones - navbar changes color */
+  @media screen and (max-width: 768px) {
+
+}
+
+/* Small smartphones - image placeholders change color */
+  @media screen and (max-width: 576px) {
+
+}

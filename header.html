@@ -6,27 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <!-- Insert third-party APIs here-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!-- Third-Party Fonts.css -->
     <link rel="stylesheet" href="https://use.typekit.net/erz1sbw.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/goodies.css" />
+    <!-- Main CSS Links -->
+    <!-- <link rel="stylesheet" type="text/css" href="./assets/css/about.css" /> -->
+    <!-- <link rel="stylesheet" type="text/css" href="./assets/css/main.css" /> -->
     <link rel="stylesheet" type="text/css" href="./assets/css/header.css" />
-    <title>JunkFood.</title>
-    <link rel="shortcut icon" type="image/jpg" href="./assets/images/donut.jpg" />
+    <title>junkfood. | A G3P Web Application</title>
 </head>
+<!-- Code for the header and dropdown menu -->
 
 <body>
     <header id="junknav">
         <div class="weatherDash">
             <h3 class="weather"></h3>
             <h3 class="temp"></h3>
-            <time></time>
+        <time></time>
         </div>
         <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item dropdown">
                         <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                            aria-expanded="true">
+                            aria-expanded="false">
                             <h1 id="junkfood" class="hover">junkfood.</h1>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -34,15 +39,14 @@
                                 <li>
                                     <a class="dropdown-item" href="./munchies.html">munchies</a>
                                     <ul class="link-body">
-                                        <li><a href="./munchies.html#memes" class="mini-link">memes</a></li>
-                                        <li><a href="./munchies.html#gifs" class="mini-link">gifs</a></li>
-                                        <!-- <li><a href="#" class="mini-link">extras</a></li> -->
+                                        <li><a href="#memes" class="mini-link">memes</a></li>
+                                        <li><a href="#gifs" class="mini-link">gifs</a></li>
                                     </ul>
                                 </li>
                                 <li>
                                     <a class="dropdown-item" href="./goodies.html">goodies</a>
                                     <ul class="link-body">
-                                        <li><a href="./goodies.html#goodies" class="mini-link">goodies</a></li>
+                                        <li><a href="#faves" class="mini-link">faves</a></li>
                                     </ul>
                                 </li>
                                 <li>
@@ -66,8 +70,8 @@
                         </div>
                     </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-lg-3" type="search" placeholder="munch on.." aria-label="Search"
+                <form class="form-inline my-2 my-lg-0" style="width: 1000px">
+                    <input class="form-control mr-lg-3" type="search" placeholder="Search" aria-label="Search"
                         style="width: 575px">
                     <button class="btn btn-outline-success my-5 my-sm-0" style="width: 125px;"
                         type="submit">Search</button>
@@ -76,89 +80,10 @@
         </nav>
         <a class="login" href="./login.html"><i class="fa-solid fa-user-ninja"></i> login / sign up</a>
     </header>
-    <div id="junkwrapper" class="jumbotron">
-        <h1 class="display-3 text-center">Munchies</h1>
-        <p class="lead text-center">discover new cravings</p>
-    </div>
-    <main>
-        <div id="faves" class="container-lg">
-            <h3 class="bold">goodies.</h3>
-            <div class="row">
-                <div class="col-xl-3 col-md-6 col-xxl-3">
-                    <p>Box 1</p>
-                </div>
-                <div class="col-xl-3 col-md-6 col-xxl-3">
-                    <p>Box 2</p>
-                </div>
-                <div class="col-xl-3 col-md-6 col-xxl-3">
-                    <p>Box 3</p>
-                </div>
-                <div class="col-xl-3 col-md-6 col-xxl-3">
-                    <p>Box 4</p>
-                </div>
-                <div class="col-xl-3 col-md-6 col-xxl-3">
-                    <p>Box 5</p>
-                </div>
-                <div class="col-xl-3 col-md-6 col-xxl-3">
-                    <p>Box 6</p>
-                </div>
-                <div class="col-xl-3 col-md-6 col-xxl-3">
-                    <p>Box 7</p>
-                </div>
-                <div class="col-xl-3 col-md-6 col-xxl-3">
-                    <p>Box 8</p>
-                </div>
-                <div class="col-xl-3 col-md-6 col-xxl-3">
-                    <p>Box 9</p>
-                </div>
-                <div class="col-xl-3 col-md-6 col-xxl-3">
-                    <p>Box 10</p>
-                </div>
-                <div class="col-xl-3 col-md-6 col-xxl-3">
-                    <p>Box 11</p>
-                </div>
-                <div class="col-xl-3 col-md-6 col-xxl-3">
-                    <p>Box 12</p>
-                </div>
-                <div class="col-xl-3 col-md-6 col-xxl-3">
-                    <p>Box 13</p>
-                </div>
-                <div class="col-xl-3 col-md-6 col-xxl-3">
-                    <p>Box 14</p>
-                </div>
-                <div class="col-xl-3 col-md-6 col-xxl-3">
-                    <p>Box 15</p>
-                </div>
-                <div class="col-xl-3 col-md-6 col-xxl-3">
-                    <p>Box 16</p>
-                </div>
-                <div class="col-xl-3 col-md-6 col-xxl-3">
-                    <p>Box 17</p>
-                </div>
-                <div class="col-xl-3 col-md-6 col-xxl-3">
-                    <p>Box 18</p>
-                </div>
-                <div class="col-xl-3 col-md-6 col-xxl-3">
-                    <p>Box 19</p>
-                </div>
-                <div class="col-xl-3 col-md-6 col-xxl-3">
-                    <p>Box 20</p>
-                </div>
-                <div class="col-xl-3 col-md-6 col-xxl-3">
-                    <p>Box 21</p>
-                </div>
-                <div class="col-xl-3 col-md-6 col-xxl-3">
-                    <p>Box 22</p>
-                </div>
-                <div class="col-xl-3 col-md-6 col-xxl-3">
-                    <p>Box 23</p>
-                </div>
-                <div class="col-xl-3 col-md-6 col-xxl-3">
-                    <p>Box 24</p>
-                </div>
-            </div>
-        </div>
-    </main>
+    <footer>
+        © 2022 G3Projects | Designed for SMU Coding Bootcamp | Found on <span><a
+                href="https://github.com/wulfsounds/g3p-junkfood" target="_blank">GitHub</a></span>
+    </footer>
 </body>
 <!-- jQuery -->
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
@@ -178,4 +103,5 @@
 <script type="text/javascript" src="./assets/js/header.js"></script>
 <!-- Debuggin Script -->
 <!-- <script type="text/javascript" src="./assets/js/debug.js"></script> -->
+
 </html>

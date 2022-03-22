@@ -11,17 +11,19 @@
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <!-- Third-Party Fonts.css -->
     <link rel="stylesheet" href="https://use.typekit.net/erz1sbw.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/about.css" />
     <title>junkfood. | A G3P Web Application</title>
 </head>
 
 <body>
     <header>
-        <nav class="backBtn"><a href="./index.html">back to junkfood</a></nav>
+        <nav class="backBtn"><a href="./munchies.html">back to junkfood</a></nav>
         <h1 id="junkfood">junkfood.</h1>
     </header>
-    <div id="snacks" class="title">
-        <h2>snaccs</h2>
+    <div class="wrapper">
+        <div id="snacks" class="title">
+            <h2>snaccs</h2>
+        </div>
     </div>
 
     <main>
@@ -29,15 +31,16 @@
             <section class="media">
                 <img src="./assets/images/Profile-Inna.JPG" class="inna profile-pic" alt="inna-profile-pic" />
                 <div class="inna-icons">
-                    <a href="https://github.com/inna-arabejo"><img src="./assets/images/icons/GitHub-Mark-Light-120px-plus.png"
-                            class="inna-git icons" alt="github" /></a>
-                    <a href="#"><img src="./assets/images/icons/LI-In-Bug-white.png" class="inna-link icons"
+                    <a href="https://github.com/inna-arabejo"><img
+                            src="./assets/images/icons/GitHub-Mark-Light-120px-plus.png" class="inna-git icons"
+                            alt="github" /></a>
+                    <a href="https://linkedin.com"><img src="./assets/images/icons/LI-In-Bug-white.png" class="inna-link icons"
                             alt="linkedin-icon" /></a>
                 </div>
             </section>
-            <h3 class="inna-nameplate">inna arabejo.</h3>
             <section class="inna-bio">
-                <p>My name is Inna Arabejo. I got interested in computer science 4 years ago when I attended a Women Who
+                <h3 id="inna" class="inna-nameplate">inna arabejo.</h3>
+                <p class="quote">My name is Inna Arabejo. I got interested in computer science 4 years ago when I attended a Women Who
                     Code meetup. I didn't know what specific career of computer science I was going to pursue, but I
                     knew coding was my niche. When I heard about web development, it thrilled me of the endless
                     possibilities of creating a web page that I could proudly call my own. All with the use of my handy
@@ -46,17 +49,20 @@
             </section>
         </article>
 
-        <article class="block">
+        <article class="block reverse">
             <section class="media">
                 <img src="./assets/images/profile-victor.jpg" class="victor profile-pic" alt="victor-profile-pic" />
                 <div class="victor-icons">
-                    <a href="https://github.com/Victorini1" target="_blank"><img src="./assets/images/icons/GitHub-Mark-Light-120px-plus.png" class="icons" alt="github-icon" /></a>
-                    <a href="#"></a><img src="./assets/images/icons/LI-In-Bug-white.png" class="icons" alt="linkedin-icon" />
+                    <a href="https://github.com/Victorini1" target="_blank"><img
+                            src="./assets/images/icons/GitHub-Mark-Light-120px-plus.png" class="icons"
+                            alt="github-icon" /></a>
+                    <a href="https://linkedin.com"></a><img src="./assets/images/icons/LI-In-Bug-white.png" class="icons"
+                        alt="linkedin-icon" />
                 </div>
             </section>
-            <h3 class="victor-nameplate">victor kennedy.</h3>
             <section class="victor-bio">
-                <p>I have always been the go-to person in my family to fix computer hardware issues and solve mysteries
+                <h3 id="victor" class="victor-nameplate">victor kennedy.</h3>
+                <p class="quote-reverse">I have always been the go-to person in my family to fix computer hardware issues and solve mysteries
                     of "why the internet went out". I decided that it was time I get paid to render services to those in
                     need for professional help. Working in the corporate world in my short time so far, it is clear that
                     there is a need to keep evolving. I started learning more on my own the intricacies of demystifying
@@ -69,13 +75,16 @@
             <section class="media">
                 <img src="./assets/images/dev-profile-small.png" class="devin profile-pic" alt="dev-profile-pic" />
                 <div class="devin-icons">
-                    <a href="https://github.com/wulfsounds"><img src="./assets/images/icons/GitHub-Mark-Light-120px-plus.png" class="icons" alt="github-icon" /></a>
-                    <a href="#"><img src="./assets/images/icons/LI-In-Bug-white.png" class="icons" alt="linkedin-icon" /></a>
+                    <a href="https://github.com/wulfsounds"><img
+                            src="./assets/images/icons/GitHub-Mark-Light-120px-plus.png" class="icons"
+                            alt="github-icon" /></a>
+                    <a href="https://linkedin.com"><img src="./assets/images/icons/LI-In-Bug-white.png" class="icons"
+                            alt="linkedin-icon" /></a>
                 </div>
             </section>
-            <h3 class="devin-nameplate">dev wulf.</h3>
             <section class="devin-bio">
-                <p>Web Developer, graphic designer, and musician creating dynamic web applications. Currently attending
+                <h3 id="devin" class="devin-nameplate">dev wulf.</h3>
+                <p class="quote">Web Developer, graphic designer, and musician creating dynamic web applications. Currently attending
                     SMU to develop skills in MERN with newly acquired knowledge of HTML, CSS, and vanilla JavaScript
                     through the Odin Project. My goal is to create unique web applications that represent creatives’
                     and/or companies’ personality and vision. Additionally, I have been commissioned by musicians,
@@ -87,7 +96,8 @@
         </article>
     </main>
     <footer>
-        © 2022 G3Projects | Designed for SMU Coding Bootcamp | Found on <span><a href="https://github.com/wulfsounds/g3p-junkfood" target="_blank">GitHub</a></span>
+        © 2022 G3Projects | Designed for SMU Coding Bootcamp | Found on <span><a
+                href="https://github.com/wulfsounds/g3p-junkfood" target="_blank">GitHub</a></span>
     </footer>
 </body>
 <!-- jQuery -->

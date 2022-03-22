@@ -41,7 +41,13 @@ To create a dynamic front-end web application that incorporates an immersive UI 
 
 ## HTML Updates
 
-* All things HTML goes here.
+* Created "munchies" page
+* We may not hover boards in 2022, but we have..
+# HOVER MENUS
+...WITH LINKS TOO!
+
+<img src="https://i.makeagif.com/media/10-20-2015/q-6xYu.gif" alt="hover-boards" width="500px" />
+
 
 ## CSS
 
