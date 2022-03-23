@@ -51,8 +51,8 @@ section h1 a.junkfood-logo {
 
 /* Form login page */
 form {
+  display: flex;
   font-size: 30px;
-  width: 30%;
   padding: 10px;
   margin: 35%;
   margin-top: 5%;
@@ -61,6 +61,7 @@ form {
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 }
+
 
 @keyframes gradient {
   0% {
@@ -84,13 +85,17 @@ form div h3 {
 }
 
 form div.form-group {
-  width: 100%;
-  display: block;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: center;
+  margin-left: 12.5%;
+  width: 75%;
   text-align: center;
 }
 
 form div input {
-  margin: 10px;
+  display: flex;
   margin-top: 20px;
   font-size: 25px;
 }
@@ -101,9 +106,11 @@ input.placeholder {
 }
  
 #btn {
-  display: block;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-content: center;
   padding: 10px;
-  margin: 20px 200px;
   cursor: pointer;
   font-size: 24px;
   background-color: #247BA0;
@@ -115,6 +122,7 @@ h4#response {
   font-size: 20px;
   font-weight: 700;
   text-align: center;
+  margin-top: 10px;;
 }
 
 
