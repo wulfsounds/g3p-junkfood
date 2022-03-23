@@ -50,6 +50,7 @@ async function postWeather() {
     let img = document.createElement("img");
 	img.setAttribute(`src`, `http://openweathermap.org/img/wn/${icon}@2x.png`);
 	img.setAttribute("alt", "weather-icon");
+	img.setAttribute("class", "icon");
     weatherText.appendChild(img);
 
 

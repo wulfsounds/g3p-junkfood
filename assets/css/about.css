@@ -2,7 +2,7 @@ body {
   background-color: #dcbcc4;
   color: white;
 
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 nav {
@@ -40,6 +40,12 @@ header {
   width: 300px;
 }
 
+.snack {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 h2 {
   font-family: neue-haas-grotesk-display, sans-serif;
   font-weight: 900;
@@ -58,7 +64,7 @@ main{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 15em;
+  margin-top: 5em;
 }
 
 article {
@@ -67,14 +73,17 @@ article {
   position: relative;
   justify-content: center;
   align-items: center;
-  width: 2200px;
-  margin-left: 20em;
-  margin-top: 20px;
+  width: 1400px;
+  /* margin-left: 20em; */
+  /* margin-top: 20px; */
   /* position: absolute; */
+  margin-bottom: 5em;
+  left: 5em;
 }
 
 .reverse {
   flex-direction: row-reverse;
+  width: 1200px;
 }
 
 .media {
@@ -88,8 +97,8 @@ article {
 .profile-pic {
   display: flex;
   flex: 1 0 auto;
-  width: 400px;
-  height: 400px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
   border-radius: 50%;
   
@@ -111,12 +120,12 @@ article {
   font-family: neue-haas-grotesk-display, sans-serif;
   font-weight: 900;
   font-style: normal;
-  font-size: 100px;
+  font-size: 52px;
   text-align: center;
   margin: 0;
 
   left: 3.2em;
-  /* top:7.2em; */
+  top: 1.8em;
 }
 
 .inna-icons {
@@ -124,9 +133,9 @@ article {
   flex-direction: row;
   justify-content: space-between;
   position: absolute;
-  width: 165px;
-  top: 20em;
-  left: 15px;
+  width: 85px;
+  top: 10em;
+  left: 0px;
 }
 
 .inna-bio {
@@ -136,13 +145,13 @@ article {
   position: position;
   /* top: 24.2em; */
   /* left: 700px; */
-  width: 1200px;
+  width: 800px;
 
   font-family: futura-pt,sans-serif;
   font-weight: 400;
   font-style: italic;
-  font-size: 35px;
-  line-height: 35px;
+  font-size: 20px;
+  line-height: 20px;
   letter-spacing: 0.5px;
 }
 
@@ -165,9 +174,9 @@ article {
   flex-direction: row;
   justify-content: space-between;
   position: absolute;
-  width: 165px;
-  top: 20em;
-  left: 215px;
+  width: 85px;
+  top: 10em;
+  left: 110px;
 }
 
 .victor-nameplate {
@@ -175,15 +184,15 @@ article {
   font-family: neue-haas-grotesk-display, sans-serif;
   font-weight: 900;
   font-style: normal;
-  font-size: 100px;
+  font-size: 52px;
   text-align: center;
   margin: 0;
-  top: 2em;
-  right: 6em;
+  top: 1.8em;
+  right: 5em;
 }
 
 .icons {
-  width: 75px;
+  width: 40px;
 }
 
 .victor-bio {
@@ -193,13 +202,13 @@ article {
   /* position: absolute; */
   top: 35.7em;
   left: 980px;
-  width: 1200px;
+  width: 800px;
 
   font-family: futura-pt,sans-serif;
   font-weight: 400;
   font-style: italic;
-  font-size: 35px;
-  line-height: 35px;
+  font-size: 20px;
+  line-height: 20px;
   letter-spacing: 0.5px;
   text-align: right;
 }
@@ -220,12 +229,12 @@ article {
   font-family: neue-haas-grotesk-display, sans-serif;
   font-weight: 900;
   font-style: normal;
-  font-size: 100px;
+  font-size: 52px;
   text-align: center;
   margin: 0;
 
   left: 3.2em;
-  top: 2em;
+  top: 1.8em;
 }
 
 .devin-icons {
@@ -233,9 +242,9 @@ article {
   flex-direction: row;
   justify-content: space-between;
   position: absolute;
-  width: 165px;
-  top: 20em;
-  left: 15px;
+  width: 85px;
+  top: 10em;
+  left: 0px;
 }
 
 .devin-bio {
@@ -244,31 +253,31 @@ article {
   /* position: absolute; */
   top: 48.7em;
   left: 700px;
-  width: 1200px;
+  width: 800px;
 
   font-family: futura-pt,sans-serif;
   font-weight: 400;
   font-style: italic;
-  font-size: 35px;
-  line-height: 35px;
+  font-size: 20px;
+  line-height: 20px;
   letter-spacing: 0.5px;
 }
 
 p {
   position: relative;
-  width: 1200px;
+  width: 800px;
 }
 
 .quote {
   position: absolute;
-  top: 9em;
-  left: 6em;
+  top: 7.8em;
+  left: 5.5em;
 }
 
 .quote-reverse {
   position: absolute;
-  top: 9em;
-  right: 15em
+  top: 7.8em;
+  right: 10.5em
 }
 
 footer {
@@ -279,22 +288,16 @@ footer {
   height: 20px;
   top: 20vh;
 
-  font-size: 30px;
+  font-size: 15px;
 }
 
- /* Media Queries */
+@media screen and (max-width: 1440px) {
+  .back-button {
+    font-size: 20px;
+  }
 
-/* Tablets */
-@media screen and (max-width: 992px) {
-
-}
-  
-  /* Large smartphones - navbar changes color */
-  @media screen and (max-width: 768px) {
-
-}
-
-/* Small smartphones - image placeholders change color */
-  @media screen and (max-width: 576px) {
+  h2 {
+    font-size: 200px;
+  }
 
 }

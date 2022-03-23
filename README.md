@@ -5,11 +5,28 @@ To create a dynamic front-end web application that incorporates an immersive UI 
 
 ## Contributors
 
-* [Inna Arabejo](https://github.com/inna-arabejo)
+* [Devin Wulf](https://github.com/wulfsounds): 
+Project Manager; Headers, HTML Scaffolding, 
+wireframing, “snacc” page, hover menu and design.
+    - HTML, CSS, Javascript, jQuery, moment.js, 
+	Bootstrap manipulation & geocoding
+    - OpenWeather API, Bootstrap v4.6
+* [Inna Arabejo](https://github.com/inna-arabejo):
+Splash and Login pages, “goodies” page, local storage
+integration and design.
+    - HTML, CSS, JavaScript, JQuery, Bootstrap manipulation
+    - Bootstrap v4.6, local storage functionality
 
-* [Victor Kennedy](https://github.com/Victorini1)
+* [Victor Kennedy](https://github.com/Victorini1): “munchies” and “goodies” pages, DOM manipulation,
+API integration and functionality.
+    - HTML, CSS, JavaScript, jQuery, third-party APIs
+    - Imgur & Giphy APIs, Bootstrap v4.6
 
-* [Devin Wulf](https://github.com/wulfsounds)
+Additional CSS*:
+
+Dynamic Rainbow: Manuel Pinto (CodePen)<br>
+Additional Local Storage: thbwd (CodePen)
+
 
 ## APIs Used
 

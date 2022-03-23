@@ -183,3 +183,22 @@ footer {
 	top: 20vh;
 	font-size: 30px;
 }
+
+@media screen and (max-width: 1440px) {
+	.icon {
+		width: 50px;
+	}
+	
+	.time {
+		font-size: 15px;
+	}
+
+	.temp {
+		font-size: 20px;
+	}
+
+	a.login {
+		font-size: 15px;
+		margin: 25px;
+	}
+}
