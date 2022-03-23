@@ -72,11 +72,10 @@ main {
 	text-align: center;
 
 } 
-
-/* img{
-	display: flex;
-	justify-content: center;
-} */
+/* resizes images in goodies page dynamically */
+#list img {
+  max-width: 300px;
+}
 
 /* Media Queries */
 

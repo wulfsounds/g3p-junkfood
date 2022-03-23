@@ -42,7 +42,7 @@ function addImage(imgData){
 // Places the info on the page, added some custom stylings
 function displayImgData(imgData){
   var span = document.createElement('span');
-  span.innerHTML = '<div class="col-xl-3 col-md-3 col-xxl-3"><img id="gifies"class="img-responsive img-thumbnail" src="' + imgData + '"/></div>';
+  span.innerHTML = '<div class="col-xl-3 col-md-3 col-xxl-3"><img id="gifies" class="img-responsive img-thumbnail" src="' + imgData + '"/></div>';
   document.getElementById('list').insertBefore(span, null);
 }
 // Dispalys all the info Dynamically on the page 
